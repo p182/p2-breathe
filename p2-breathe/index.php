@@ -65,7 +65,6 @@ get_header(); ?>
 		</div><!-- #content -->
 
 	</div><!-- #primary -->
-	<div id="primary-modal"></div>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
