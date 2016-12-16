@@ -6,19 +6,19 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php if ( !is_page() ) :
-			$author_posts_url = get_author_posts_url( get_the_author_meta( 'ID' ) );
-				$posts_by_title   = sprintf(
-				__( 'Posts by %1$s ( @%2$s )', 'p2-breathe' ),
-				get_the_author_meta( 'display_name' ),
-				get_the_author_meta( 'user_nicename' )
-			); ?>
-		<a href="<?php echo esc_url( $author_posts_url ); ?>" title="<?php echo esc_attr( $posts_by_title ); ?>" class="author-avatar">
-			<?php echo get_avatar( get_the_author_meta('user_email'), 48 ); ?>
-		</a>
-		<?php endif; ?>
-
 		<div class="entry-meta">
+			<?php if ( !is_page() ) :
+				$author_posts_url = get_author_posts_url( get_the_author_meta( 'ID' ) );
+					$posts_by_title   = sprintf(
+					__( 'Posts by %1$s ( @%2$s )', 'p2-breathe' ),
+					get_the_author_meta( 'display_name' ),
+					get_the_author_meta( 'user_nicename' )
+				); ?>
+			<a href="<?php echo esc_url( $author_posts_url ); ?>" title="<?php echo esc_attr( $posts_by_title ); ?>" class="author-avatar">
+				<?php echo get_avatar( get_the_author_meta('user_email'), 48 ); ?>
+			</a>
+			<?php endif; ?>
+
 			<?php if ( ! is_page() ) : ?>
 				<a href="<?php echo esc_url( $author_posts_url ); ?>" title="<?php echo esc_attr( $posts_by_title ); ?>" class="entry-author"><?php the_author(); ?></a>
 			<?php endif; ?>
