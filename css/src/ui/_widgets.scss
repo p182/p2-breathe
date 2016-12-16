@@ -1,7 +1,7 @@
 /* WIDGETS */
 
 .widget-area ul {
-	padding-left:0px;
+	padding-left: 0px;
 }
 
 
@@ -10,7 +10,7 @@
 
 .widget {
 	background: $gray-2;
-	margin: 0 0 2em;
+	margin: 0 0 20px 0;
 	padding: 1.2em;
 
 	select {
@@ -66,10 +66,3 @@ td.recentcommentstextend {
 	vertical-align: middle;
 }
 
-@include  breakpoint( 'handset-landscape' ){
-	.widget_o2-filter-widget {
-		position: absolute;
-		top: -33px;
-		padding: 7px;
-	}
-}

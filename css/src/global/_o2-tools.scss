@@ -37,7 +37,7 @@ $green-50:	#009632;
 /* TYPOGRAPHY */
 // Typography definitions (think fonts, font sizes, weights, etc. Variables to be used elsewhere.)
 
-$sans: "Open Sans", sans-serif;
+$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
 $mono: Monaco, Consolas, "Courier New", monospace;
 $mono-font: 11px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", "Courier New", monospace;
 $serif:  "Noto Serif", serif;

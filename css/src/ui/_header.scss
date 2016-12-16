@@ -44,7 +44,8 @@
 	}
 
 	@include breakpoint( 'tablet-portrait' ) {
-		margin: 0;
+		/*height: 48px; */
+		background: none;
 	}
 
 	.hgroup {
@@ -120,6 +121,15 @@
 
 @include breakpoint( 'tablet-portrait' ) {
 	#masthead .hgroup {
-		display: none;
+		float: left;
+		padding: 0;
+		margin-bottom: 10px;
+
+		.site-header,
+		.site-description {
+			padding: 0;
+			margin: 0;
+			line-height: 1;
+		}
 	}
 }
