@@ -1533,6 +1533,7 @@ article#post-new .entry-title,
 article.page .entry-title {
   margin: 0.4em 0;
   padding: 0;
+  clear: both;
 }
 article.post .entry-title a,
 article#post-new .entry-title a,
