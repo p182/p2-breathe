@@ -373,3 +373,9 @@ div.sharedaddy.sharedaddy-dark .sd-block {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
+/* Catch case where o2 is turned off */
+body.highlander-enabled article.post,
+body.highlander-enabled article.page {
+  padding: 1.6em;
+}
