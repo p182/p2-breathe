@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"PO-Revision-Date: 2017-12-12 06:39:16+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -46,9 +46,18 @@ msgstr "آپ اپنی پہلی پوسٹ شائع کرنے لیے تیار ہیں
 msgid "Nothing Found"
 msgstr "کچھ نہیں ملا"
 
+#: index.php:31
+msgctxt "Month name"
+msgid "Updates from %s"
+msgstr "اپڈیٹس منجانب %s"
+
 #: index.php:27
 msgid "Recent Updates"
 msgstr "تازہ ترین اپڈیٹس"
+
+#: inc/template-tags.php:176
+msgid "%1$s <em>on</em> %2$s"
+msgstr "%1$s <em>پر</em> %2$s"
 
 #: inc/template-tags.php:71
 msgid "Pingback:"
@@ -144,6 +153,14 @@ msgstr "فخریہ تقویت شدہ منجانب %s"
 #: content.php:49
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "<span class=\"meta-nav\">&rarr;</span> پڑھنا جاری رکھیں"
+
+#: content-single.php:33 content.php:33
+msgid "<br />Tags:"
+msgstr "<br />ٹیگز:"
+
+#: content-single.php:13 content.php:13
+msgid "Posts by %1$s ( @%2$s )"
+msgstr "پوسٹ منجانب %1$s ( @%2$s )"
 
 #: content-page.php:12 content-single.php:45 content.php:50 image.php:93
 msgid "Pages:"
