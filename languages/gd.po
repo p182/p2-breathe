@@ -11,15 +11,15 @@ msgstr ""
 "Language: gd_GB\n"
 "Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
-#: searchform.php:11
-msgctxt "submit button"
-msgid "Search"
-msgstr "Lorg"
-
 #: searchform.php:10
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Lorg &hellip;"
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Lorg"
 
 #: search.php:17
 msgid "Search Results for: %s"
@@ -29,52 +29,52 @@ msgstr "Toraidhean luirg airson: %s"
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Tha coltas nach urrainn dhuinn na tha a dhìth ort fhaighinn dhut. Feuch is dèan lorg."
 
-#: no-results.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Tha sinn duilich ach cha do lorg sinn dad airson na lorg thu. Feuch ris a-rithist le faclan-luirg eile."
-
 #: no-results.php:19
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Deiseil gus do chiad phost fhoillseachadh? <a href=\"%1$s\">Toiseach tòiseachaidh</a>."
 
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Tha sinn duilich ach cha do lorg sinn dad airson na lorg thu. Feuch ris a-rithist le faclan-luirg eile."
+
 #: no-results.php:13
 msgid "Nothing Found"
 msgstr "Cha deach dad a lorg"
+
+#: inc/template-tags.php:176
+msgid "%1$s <em>on</em> %2$s"
+msgstr "%1$s <em>air</em> %2$s"
+
+#: index.php:27
+msgid "Recent Updates"
+msgstr "Ùrachaidhean o chionn goirid"
 
 #: index.php:31
 msgctxt "Month name"
 msgid "Updates from %s"
 msgstr "Ùrachaidhean o: %s"
 
-#: index.php:27
-msgid "Recent Updates"
-msgstr "Ùrachaidhean o chionn goirid"
-
-#: inc/template-tags.php:176
-msgid "%1$s <em>on</em> %2$s"
-msgstr "%1$s <em>air</em> %2$s"
-
 #: inc/template-tags.php:71
 msgid "Pingback:"
 msgstr "Pingback:"
-
-#: inc/template-tags.php:48
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Puist nas ùire <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:44
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Puist nas sine"
 
-#: inc/template-tags.php:39
-msgctxt "Next post link"
-msgid "&rarr;"
-msgstr "&rarr;"
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Puist nas ùire <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:38
 msgctxt "Previous post link"
 msgid "&larr;"
 msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
 
 #: inc/template-tags.php:34
 msgid "Post navigation"
@@ -84,29 +84,29 @@ msgstr "Seòladaireachd a’ phuist"
 msgid "Page %s"
 msgstr "Duilleag %s"
 
-#: inc/customizer.php:35
-msgid "Link Color"
-msgstr "Dath a' cheangail"
-
 #: image.php:105
 msgid "Both comments and trackbacks are currently closed."
 msgstr "Tha an dà chuid beachdan is trackbacks dùinte."
 
-#: image.php:103
-msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
-msgstr "Tha na trackbacks dùinte ach is urrainn dhut <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">beachd a sgrìobhadh</a>."
+#: inc/customizer.php:35
+msgid "Link Color"
+msgstr "Dath a' cheangail"
 
 #: image.php:101
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "Tha na beachdan dùinte ach 's urrainn dhut trackback fhàgail: <a class=\"trackback-link\" href=\"%s\" title=\"URL Trackback airson a' phuist agad\" rel=\"trackback\">URL Trackback</a>."
 
-#: image.php:99
-msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Sgrìobh beachd</a> no fàg trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL Trackback airson a' phuist agad\" rel=\"trackback\">URL Trackback</a>."
+#: image.php:103
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Tha na trackbacks dùinte ach is urrainn dhut <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">beachd a sgrìobhadh</a>."
 
 #: image.php:39
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Air adhart <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:99
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Sgrìobh beachd</a> no fàg trackback: <a class=\"trackback-link\" href=\"%s\" title=\"URL Trackback airson a' phuist agad\" rel=\"trackback\">URL Trackback</a>."
 
 #: image.php:38
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
@@ -129,13 +129,13 @@ msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "air"
 
-#: functions.php:97
-msgid "Sidebar"
-msgstr "Bàr-taoibh"
-
 #: functions.php:66
 msgid "Primary Menu"
 msgstr "Am prìomh-chlàr-taice"
+
+#: functions.php:97
+msgid "Sidebar"
+msgstr "Bàr-taoibh"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
@@ -157,13 +157,13 @@ msgstr "Duilleagan:"
 msgid "Comments are closed."
 msgstr "Tha na beachdan dùinte."
 
-#: comments.php:32 comments.php:52
-msgid "Newer Comments &rarr;"
-msgstr "Na beachdan as ùire &rarr;"
-
 #: comments.php:31 comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; Beachdan nas sine"
+
+#: comments.php:32 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr "Na beachdan as ùire &rarr;"
 
 #: comments.php:30 comments.php:50
 msgid "Comment navigation"
@@ -181,46 +181,46 @@ msgstr "Ceanglaichean"
 msgid "Quotes"
 msgstr "Luaidhean"
 
-#: archive.php:56
-msgid "Videos"
-msgstr "Videothan"
-
 #: archive.php:53
 msgid "Images"
 msgstr "Dealbhan"
 
-#: archive.php:50
-msgid "Asides"
-msgstr "Asides"
+#: archive.php:56
+msgid "Videos"
+msgstr "Videothan"
 
 #: archive.php:47
 msgid "Yearly Archives: %s"
 msgstr "Tasg-lannan bliadhnail: %s"
 
+#: archive.php:50
+msgid "Asides"
+msgstr "Asides"
+
 #: archive.php:44
 msgid "Monthly Archives: %s"
 msgstr "Tasg-lannan mìosail: %s"
-
-#: archive.php:41
-msgid "Daily Archives: %s"
-msgstr "Tasg-lannan làitheil: %s"
 
 #: archive.php:33
 msgid "Author Archives: %s"
 msgstr "Tasg-lannan an ùghdair: %s"
 
+#: archive.php:41
+msgid "Daily Archives: %s"
+msgstr "Tasg-lannan làitheil: %s"
+
 #: archive.php:26
 msgid "Tag Archives: %s"
 msgstr "Tasg-lannan nan taga: %s"
-
-#: archive.php:23
-msgid "Category Archives: %s"
-msgstr "Tasg-lannan nan roinn-seòrsa: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Feuch na tasg-lannan mìosail. %1$s"
+
+#: archive.php:23
+msgid "Category Archives: %s"
+msgstr "Tasg-lannan nan roinn-seòrsa: %s"
 
 #: 404.php:27
 msgid "Most Used Categories"
