@@ -16,15 +16,15 @@ msgstr ""
 msgid "Communication is oxygen. P2 \"Breathe\" is the first o2-enabled theme."
 msgstr "La comunicació és oxigen. P2 \"sospir\", és el primer tema amb actiu 02."
 
-#: searchform.php:11
-msgctxt "submit button"
-msgid "Search"
-msgstr "Cerca"
-
 #: searchform.php:10
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Cerca &hellip;"
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Cerca"
 
 #: search.php:17
 msgid "Search Results for: %s"
@@ -34,13 +34,13 @@ msgstr "Resultats de cerca per: %s"
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Sembla que no podem trobar el què estaves buscant. Potser una cerca pot ajudar."
 
-#: no-results.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Ho sentim, però res coincideix amb els termes de cerca. Torneu-ho a provar amb algunes paraules clau diferents."
-
 #: no-results.php:19
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Esteu preparats per publicar la primera entrada? <a href=\"%1$s\">Comenceu aquí</a>."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ho sentim, però res coincideix amb els termes de cerca. Torneu-ho a provar amb algunes paraules clau diferents."
 
 #: no-results.php:13
 msgid "Nothing Found"
@@ -54,23 +54,23 @@ msgstr "Actualitzacions recents"
 msgid "Pingback:"
 msgstr "Retroenllaç:"
 
-#: inc/template-tags.php:48
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Entrades més recents <span class=\"meta-nav\">&rarr;</span>"
-
 #: inc/template-tags.php:44
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Entrades més antigues"
 
-#: inc/template-tags.php:39
-msgctxt "Next post link"
-msgid "&rarr;"
-msgstr "&rarr;"
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Entrades més recents <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:38
 msgctxt "Previous post link"
 msgid "&larr;"
 msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
 
 #: inc/template-tags.php:34
 msgid "Post navigation"
@@ -80,13 +80,13 @@ msgstr "Navegació per les entrades"
 msgid "Page %s"
 msgstr "Pàgina %s"
 
-#: inc/customizer.php:35
-msgid "Link Color"
-msgstr "Color de l'enllaçs"
-
 #: image.php:105
 msgid "Both comments and trackbacks are currently closed."
 msgstr "Comentaris i Enllaços de retorn estan tancats."
+
+#: inc/customizer.php:35
+msgid "Link Color"
+msgstr "Color de l'enllaçs"
 
 #: image.php:101
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
@@ -117,13 +117,13 @@ msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:97
-msgid "Sidebar"
-msgstr "Barra lateral"
-
 #: functions.php:66
 msgid "Primary Menu"
 msgstr "Menú principal"
+
+#: functions.php:97
+msgid "Sidebar"
+msgstr "Barra lateral"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
@@ -133,13 +133,13 @@ msgstr "Tema: %1$s per %2$s."
 msgid "Proudly powered by %s"
 msgstr "Gràcies al %s."
 
-#: content.php:49
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Continua llegint <span class=\"meta-nav\">&rarr;</span>"
-
 #: content-single.php:33 content.php:33
 msgid "<br />Tags:"
 msgstr "<br />Etiquetes:"
+
+#: content.php:49
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continua llegint <span class=\"meta-nav\">&rarr;</span>"
 
 #: content-page.php:12 content-single.php:45 content.php:50 image.php:93
 msgid "Pages:"
@@ -149,13 +149,13 @@ msgstr "Pàgines:"
 msgid "Comments are closed."
 msgstr "Els comentaris estan tancats."
 
-#: comments.php:32 comments.php:52
-msgid "Newer Comments &rarr;"
-msgstr "Comentaris més recents  &rarr;"
-
 #: comments.php:31 comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; Comentaris anteriors"
+
+#: comments.php:32 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr "Comentaris més recents  &rarr;"
 
 #: comments.php:30 comments.php:50
 msgid "Comment navigation"
@@ -173,54 +173,54 @@ msgstr "Enllaços"
 msgid "Quotes"
 msgstr "Cites"
 
-#: archive.php:56
-msgid "Videos"
-msgstr "Vídeos"
-
 #: archive.php:53
 msgid "Images"
 msgstr "Imatges"
 
-#: archive.php:50
-msgid "Asides"
-msgstr "Notes"
+#: archive.php:56
+msgid "Videos"
+msgstr "Vídeos"
 
 #: archive.php:47
 msgid "Yearly Archives: %s"
 msgstr "Arxiu anual: %s"
 
+#: archive.php:50
+msgid "Asides"
+msgstr "Notes"
+
 #: archive.php:44
 msgid "Monthly Archives: %s"
 msgstr "Arxiu mensual: %s"
-
-#: archive.php:41
-msgid "Daily Archives: %s"
-msgstr "Arxiu diari: %s"
 
 #: archive.php:33
 msgid "Author Archives: %s"
 msgstr "Arxiu de l'autor: %s"
 
+#: archive.php:41
+msgid "Daily Archives: %s"
+msgstr "Arxiu diari: %s"
+
 #: archive.php:26
 msgid "Tag Archives: %s"
 msgstr "Arxiu d'etiquetes: %s"
-
-#: archive.php:23
-msgid "Category Archives: %s"
-msgstr "Arxiu de la categoria: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Intenteu cercar en l'arxiu mensual. %1$s"
 
-#: 404.php:27
-msgid "Most Used Categories"
-msgstr "Categories més usades"
+#: archive.php:23
+msgid "Category Archives: %s"
+msgstr "Arxiu de la categoria: %s"
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "No hem trobat res en aquesta ubicació. Potser podeu provar un dels enllaços següents o una cerca?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Categories més usades"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."

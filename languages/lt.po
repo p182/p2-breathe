@@ -26,26 +26,26 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Paieška &hellip;"
 
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Paieškos rezultatai pagal: %s"
+
 #: searchform.php:9
 msgctxt "assistive text"
 msgid "Search"
 msgstr "Paieška"
 
-#: search.php:17
-msgid "Search Results for: %s"
-msgstr "Paieškos rezultatai pagal: %s"
-
 #: no-results.php:28
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Nieko nerasta. Pabandykite pasinaudoti paieška."
 
-#: no-results.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Deja, nieko panašaus rasti nepavyko. Pabandykite įvesti kitokį paieškos raktažodį."
-
 #: no-results.php:19
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Pasirengę paskelbti savo pirmajį įrašą? <a href=\"%1$s\">Pradėkite čia</a>."
+
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Deja, nieko panašaus rasti nepavyko. Pabandykite įvesti kitokį paieškos raktažodį."
 
 #: no-results.php:13
 msgid "Nothing Found"
@@ -68,23 +68,23 @@ msgstr "%1$s <em> </em> %2$s"
 msgid "Pingback:"
 msgstr "Atgalinis pranešimas:"
 
-#: inc/template-tags.php:48
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Naujesni įrašai <span class=\"meta-nav\">&rarr;</span>"
-
 #: inc/template-tags.php:44
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Senesni įrašai"
 
-#: inc/template-tags.php:39
-msgctxt "Next post link"
-msgid "&rarr;"
-msgstr "&rarr;"
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Naujesni įrašai <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:38
 msgctxt "Previous post link"
 msgid "&larr;"
 msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
 
 #: inc/template-tags.php:34
 msgid "Post navigation"
@@ -94,6 +94,10 @@ msgstr "Navigacija tarp įrašų"
 msgid "Page %s"
 msgstr "Puslapis %s"
 
+#: image.php:105
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Šiuo metu tiek komentarai, tiek atgalinės nuorodos išjungtos."
+
 #: inc/customizer.php:35
 msgid "Link Color"
 msgstr "Nuorodos spalva"
@@ -102,37 +106,33 @@ msgstr "Nuorodos spalva"
 msgid "Alternate Color"
 msgstr "Antrinė spalva"
 
-#: image.php:105
-msgid "Both comments and trackbacks are currently closed."
-msgstr "Šiuo metu tiek komentarai, tiek atgalinės nuorodos išjungtos."
+#: image.php:101
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Komentarai išjungti, bet galite palikti atgalinę nuorodą: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Atgalinė URL</a>."
 
 #: image.php:103
 msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
 msgstr "Atgalinės nuorodos išjungtos, bet galite <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">palikti komentarą</a>."
 
-#: image.php:101
-msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr "Komentarai išjungti, bet galite palikti atgalinę nuorodą: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Atgalinė URL</a>."
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Sekantis <span class=\"meta-nav\">&rarr;</span>"
 
 #: image.php:99
 msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Įrašykite komentarą</a> arba palikite atgalinę nuorodą: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Sekimo URL</a>."
 
-#: image.php:39
-msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Sekantis <span class=\"meta-nav\">&rarr;</span>"
-
 #: image.php:38
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Ankstesnis"
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
-msgid "Edit"
-msgstr "Redaguoti"
-
 #: image.php:23
 msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "Paskelbta <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span>  <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> | <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:34 image.php:107 inc/template-tags.php:71
+msgid "Edit"
+msgstr "Redaguoti"
 
 #: header.php:46
 msgid "Skip to content"
@@ -152,13 +152,13 @@ msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:97
-msgid "Sidebar"
-msgstr "Šoninė juosta"
-
 #: functions.php:66
 msgid "Primary Menu"
 msgstr "Pagrindinis meniu"
+
+#: functions.php:97
+msgid "Sidebar"
+msgstr "Šoninė juosta"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
@@ -188,13 +188,13 @@ msgstr "Puslapiai:"
 msgid "Comments are closed."
 msgstr "Komentarai uždrausti."
 
-#: comments.php:32 comments.php:52
-msgid "Newer Comments &rarr;"
-msgstr "Naujesni komentarai &rarr;"
-
 #: comments.php:31 comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; Senesni komentarai"
+
+#: comments.php:32 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr "Naujesni komentarai &rarr;"
 
 #: comments.php:30 comments.php:50
 msgid "Comment navigation"
@@ -212,54 +212,54 @@ msgstr "Nuorodos"
 msgid "Quotes"
 msgstr "Citatos"
 
-#: archive.php:56
-msgid "Videos"
-msgstr "Video įrašai"
-
 #: archive.php:53
 msgid "Images"
 msgstr "Paveikslėliai"
 
-#: archive.php:50
-msgid "Asides"
-msgstr "Pastabos"
+#: archive.php:56
+msgid "Videos"
+msgstr "Video įrašai"
 
 #: archive.php:47
 msgid "Yearly Archives: %s"
 msgstr "Metų archyvas: %s"
 
+#: archive.php:50
+msgid "Asides"
+msgstr "Pastabos"
+
 #: archive.php:44
 msgid "Monthly Archives: %s"
 msgstr "Mėnesių archyvai: %s"
-
-#: archive.php:41
-msgid "Daily Archives: %s"
-msgstr "Dienų archyvai: %s"
 
 #: archive.php:33
 msgid "Author Archives: %s"
 msgstr "Autorių archyvai: %s"
 
+#: archive.php:41
+msgid "Daily Archives: %s"
+msgstr "Dienų archyvai: %s"
+
 #: archive.php:26
 msgid "Tag Archives: %s"
 msgstr "Žymų archyvai: %s"
-
-#: archive.php:23
-msgid "Category Archives: %s"
-msgstr "Kategorijos archyvas: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Pabandykite ieškoti mėnesių archyve. %1$s"
 
-#: 404.php:27
-msgid "Most Used Categories"
-msgstr "Dažniausiai naudojamos kategorijos"
+#: archive.php:23
+msgid "Category Archives: %s"
+msgstr "Kategorijos archyvas: %s"
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "Nieko nerasta. Galbūt pabandykite vieną iš nuorodų žemiau arba paiešką? "
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Dažniausiai naudojamos kategorijos"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
