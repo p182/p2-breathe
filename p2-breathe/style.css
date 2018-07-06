@@ -1126,38 +1126,31 @@ h4 {
   margin: 0.4em 0 1.1em 0;
 }
 
-/* line 5, css/src/ui/_fields.scss */
+/* line 6, css/src/ui/_fields.scss */
 input[type="text"],
 input[type="email"],
 input[type="password"],
+input[type="url"],
 input[type="search"],
 textarea {
   color: #222222;
   border: 1px solid #dddddd;
+  padding: 5px;
 }
-
-/* line 14, css/src/ui/_fields.scss */
+/* line 11, css/src/ui/_fields.scss */
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus,
+input[type="url"]:focus,
 input[type="search"]:focus,
 textarea:focus {
   color: #222222;
 }
 
-/* line 21, css/src/ui/_fields.scss */
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="search"] {
-  padding: 5px;
-}
-
-/* line 25, css/src/ui/_fields.scss */
+/* line 16, css/src/ui/_fields.scss */
 textarea {
   overflow: auto;
   /* Removes default vertical scrollbar in IE6/7/8/9 */
-  padding-left: 3px;
   vertical-align: top;
   /* Improves readability and alignment in all browsers */
   width: 98%;
