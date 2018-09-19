@@ -1807,25 +1807,7 @@ article.page .entry-content table tr th {
   padding: 1em;
   border-bottom: 1px #f1f1f1 solid;
 }
-/* line 153, css/src/ui/_posts.scss */
-article.post .entry-content table tr td:first-child,
-article.post .entry-content table tr th:first-child,
-article#post-new .entry-content table tr td:first-child,
-article#post-new .entry-content table tr th:first-child,
-article.page .entry-content table tr td:first-child,
-article.page .entry-content table tr th:first-child {
-  padding-left: 0;
-}
-/* line 158, css/src/ui/_posts.scss */
-article.post .entry-content table tr td:last-child,
-article.post .entry-content table tr th:last-child,
-article#post-new .entry-content table tr td:last-child,
-article#post-new .entry-content table tr th:last-child,
-article.page .entry-content table tr td:last-child,
-article.page .entry-content table tr th:last-child {
-  padding-right: 0;
-}
-/* line 167, css/src/ui/_posts.scss */
+/* line 157, css/src/ui/_posts.scss */
 article.post .entry-content table thead tr td,
 article.post .entry-content table thead tr th,
 article.post .entry-content table tfoot tr td,
@@ -1840,6 +1822,24 @@ article.page .entry-content table tfoot tr td,
 article.page .entry-content table tfoot tr th {
   font-weight: bold;
 }
+/* line 166, css/src/ui/_posts.scss */
+article.post .entry-content table:not(.wp-block-table) td:first-child,
+article.post .entry-content table:not(.wp-block-table) th:first-child,
+article#post-new .entry-content table:not(.wp-block-table) td:first-child,
+article#post-new .entry-content table:not(.wp-block-table) th:first-child,
+article.page .entry-content table:not(.wp-block-table) td:first-child,
+article.page .entry-content table:not(.wp-block-table) th:first-child {
+  padding-left: 0;
+}
+/* line 171, css/src/ui/_posts.scss */
+article.post .entry-content table:not(.wp-block-table) td:last-child,
+article.post .entry-content table:not(.wp-block-table) th:last-child,
+article#post-new .entry-content table:not(.wp-block-table) td:last-child,
+article#post-new .entry-content table:not(.wp-block-table) th:last-child,
+article.page .entry-content table:not(.wp-block-table) td:last-child,
+article.page .entry-content table:not(.wp-block-table) th:last-child {
+  padding-right: 0;
+}
 @media (max-width: 550px) {
   /* line 136, css/src/ui/_posts.scss */
   article.post .entry-content,
@@ -1849,13 +1849,13 @@ article.page .entry-content table tfoot tr th {
   }
 }
 
-/* line 186, css/src/ui/_posts.scss */
+/* line 187, css/src/ui/_posts.scss */
 .o2 article.post,
 .o2 article#post-new,
 .o2 article.page {
   padding: 0;
 }
-/* line 190, css/src/ui/_posts.scss */
+/* line 191, css/src/ui/_posts.scss */
 .o2 article.post.sticky,
 .o2 article#post-new.sticky,
 .o2 article.page.sticky {
@@ -1866,7 +1866,7 @@ article.page .entry-content table tfoot tr th {
 /**
  * All avatars
  */
-/* line 202, css/src/ui/_posts.scss */
+/* line 203, css/src/ui/_posts.scss */
 img.avatar {
   border-radius: 100%;
 }
@@ -1874,7 +1874,7 @@ img.avatar {
 /**
  * Sharedaddy
  */
-/* line 211, css/src/ui/_posts.scss */
+/* line 212, css/src/ui/_posts.scss */
 div.sharedaddy.sharedaddy-dark .sd-block {
   border-top: 1px #dddddd solid;
 }
@@ -1882,124 +1882,124 @@ div.sharedaddy.sharedaddy-dark .sd-block {
 /**
  * Comments
  */
-/* line 221, css/src/ui/_posts.scss */
+/* line 222, css/src/ui/_posts.scss */
 .comment-list,
 .comment-list .children {
   list-style-type: none;
   margin: 0;
 }
 
-/* line 226, css/src/ui/_posts.scss */
+/* line 227, css/src/ui/_posts.scss */
 .o2-comment {
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
 @media (max-width: 876px) {
-  /* line 232, css/src/ui/_posts.scss */
+  /* line 233, css/src/ui/_posts.scss */
   input[type="checkbox"] {
     font-size: 2em;
   }
 }
-/* line 238, css/src/ui/_posts.scss */
+/* line 239, css/src/ui/_posts.scss */
 .tag-prefix,
 .mentions-prefix {
   opacity: 0.4;
 }
 
-/* line 242, css/src/ui/_posts.scss */
+/* line 243, css/src/ui/_posts.scss */
 .o2-tags-array {
   display: block;
   padding: .2em 0;
 }
 
-/* line 247, css/src/ui/_posts.scss */
+/* line 248, css/src/ui/_posts.scss */
 .ui-helper-hidden-accessible {
   display: none;
 }
 
-/* line 252, css/src/ui/_posts.scss */
+/* line 253, css/src/ui/_posts.scss */
 .post:first-of-type.tag-p2-xpost {
   margin-top: 2em;
 }
 
-/* line 257, css/src/ui/_posts.scss */
+/* line 258, css/src/ui/_posts.scss */
 .tag-p2-xpost {
   background: transparent;
   padding-bottom: 0;
   margin: -1.5em 0 2em 0;
 }
-/* line 263, css/src/ui/_posts.scss */
+/* line 264, css/src/ui/_posts.scss */
 .tag-p2-xpost .o2-post,
 .tag-p2-xpost .o2-comment {
   font-size: 0.9em;
   font-style: italic;
   padding: 10px 10px 10px 0px;
 }
-/* line 268, css/src/ui/_posts.scss */
+/* line 269, css/src/ui/_posts.scss */
 .tag-p2-xpost .o2-post .avatar,
 .tag-p2-xpost .o2-comment .avatar {
   width: 34px;
 }
-/* line 273, css/src/ui/_posts.scss */
+/* line 274, css/src/ui/_posts.scss */
 .tag-p2-xpost .o2-post {
   background: transparent;
   min-height: 36px;
   padding-left: 10px;
 }
-/* line 279, css/src/ui/_posts.scss */
+/* line 280, css/src/ui/_posts.scss */
 .tag-p2-xpost .author-avatar {
   display: block;
 }
-/* line 282, css/src/ui/_posts.scss */
+/* line 283, css/src/ui/_posts.scss */
 .tag-p2-xpost .author-avatar img {
   margin-right: 10px;
 }
-/* line 287, css/src/ui/_posts.scss */
+/* line 288, css/src/ui/_posts.scss */
 .tag-p2-xpost .o2-comment {
   padding-left: 5em;
 }
-/* line 290, css/src/ui/_posts.scss */
+/* line 291, css/src/ui/_posts.scss */
 .tag-p2-xpost .o2-comment .o2-comment-header {
   overflow: visible;
   padding-bottom: 0;
 }
-/* line 295, css/src/ui/_posts.scss */
+/* line 296, css/src/ui/_posts.scss */
 .tag-p2-xpost .o2-comment .comment-meta {
   line-height: 1.4;
 }
-/* line 299, css/src/ui/_posts.scss */
+/* line 300, css/src/ui/_posts.scss */
 .tag-p2-xpost .o2-comment .o2-actions {
   display: none;
 }
-/* line 305, css/src/ui/_posts.scss */
+/* line 306, css/src/ui/_posts.scss */
 .tag-p2-xpost .o2-tags-array,
 .tag-p2-xpost .sharedaddy {
   display: none;
 }
-/* line 309, css/src/ui/_posts.scss */
+/* line 310, css/src/ui/_posts.scss */
 .tag-p2-xpost p {
   margin: 0;
 }
-/* line 313, css/src/ui/_posts.scss */
+/* line 314, css/src/ui/_posts.scss */
 .tag-p2-xpost .comment-likes {
   display: none;
 }
 
-/* line 318, css/src/ui/_posts.scss */
+/* line 319, css/src/ui/_posts.scss */
 .o2-xpost-author {
   font-size: 1em;
   overflow: hidden;
 }
-/* line 322, css/src/ui/_posts.scss */
+/* line 323, css/src/ui/_posts.scss */
 .o2-xpost-author a {
   padding: 0;
 }
-/* line 326, css/src/ui/_posts.scss */
+/* line 327, css/src/ui/_posts.scss */
 .o2-xpost-author .entry-author {
   font-size: 1em;
 }
-/* line 330, css/src/ui/_posts.scss */
+/* line 331, css/src/ui/_posts.scss */
 .o2-xpost-author .entry-date {
   color: #888888;
   font-size: 0.9em;
@@ -2007,28 +2007,28 @@ div.sharedaddy.sharedaddy-dark .sd-block {
   padding-left: 5px;
 }
 
-/* line 338, css/src/ui/_posts.scss */
+/* line 339, css/src/ui/_posts.scss */
 .o2-xpost-avatar {
   border-width: 0px;
   box-shadow: none;
 }
 
-/* line 343, css/src/ui/_posts.scss */
+/* line 344, css/src/ui/_posts.scss */
 .o2-xpost-entry-date {
   float: none;
 }
-/* line 346, css/src/ui/_posts.scss */
+/* line 347, css/src/ui/_posts.scss */
 .o2-xpost-entry-date:hover {
   color: #3498db;
 }
 
-/* line 352, css/src/ui/_posts.scss */
+/* line 353, css/src/ui/_posts.scss */
 .format-status .o2-post .entry-title,
 .tag-p2-xpost .o2-post .entry-title {
   display: none;
 }
 
-/* line 357, css/src/ui/_posts.scss */
+/* line 358, css/src/ui/_posts.scss */
 .tag-p2-xpost .avatar {
   float: left;
   border: 1px rgba(255, 255, 255, 0.5) solid;
@@ -2036,19 +2036,19 @@ div.sharedaddy.sharedaddy-dark .sd-block {
 }
 
 @media (max-width: 550px) {
-  /* line 366, css/src/ui/_posts.scss */
+  /* line 367, css/src/ui/_posts.scss */
   .tag-p2-xpost {
     margin: 0 0 0.5em !important;
   }
 }
-/* line 372, css/src/ui/_posts.scss */
+/* line 373, css/src/ui/_posts.scss */
 .o2-post .o2-xpost-content p {
   margin-top: 0;
   margin-bottom: 0;
 }
 
 /* Catch case where o2 is turned off */
-/* line 379, css/src/ui/_posts.scss */
+/* line 380, css/src/ui/_posts.scss */
 body.highlander-enabled article.post,
 body.highlander-enabled article.page {
   padding: 1.6em;
