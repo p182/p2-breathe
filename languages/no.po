@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-11-25 17:04:03+0000\n"
+"PO-Revision-Date: 2018-12-10 01:29:03+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,18 @@ msgstr ""
 "Language: no\n"
 "Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Søk"
+
 #: searchform.php:10
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Søk &hellip;"
 
-#: searchform.php:11
-msgctxt "submit button"
+#: searchform.php:9
+msgctxt "assistive text"
 msgid "Search"
 msgstr "Søk"
 
@@ -25,52 +30,56 @@ msgstr "Søk"
 msgid "Search Results for: %s"
 msgstr "Søkeresultater for: %s"
 
-#: searchform.php:9
-msgctxt "assistive text"
-msgid "Search"
-msgstr "Søk"
-
 #: no-results.php:28
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Vi klarer ikke å finne det du leter etter. Prøv å søke."
-
-#: no-results.php:19
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Klar for å publisere ditt første innlegg? <a href=\"%1$s\">Kom i gang her</a>."
 
 #: no-results.php:23
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Beklager, men intet passet med dine søkeord. Vennligst prøv igjen med andre søkeord."
 
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klar for å publisere ditt første innlegg? <a href=\"%1$s\">Kom i gang her</a>."
+
 #: no-results.php:13
 msgid "Nothing Found"
 msgstr "Ingenting funnet"
+
+#: index.php:31
+msgctxt "Month name"
+msgid "Updates from %s"
+msgstr "Oppdateringer fra %s"
 
 #: index.php:27
 msgid "Recent Updates"
 msgstr "Siste oppdateringer"
 
+#: inc/template-tags.php:176
+msgid "%1$s <em>on</em> %2$s"
+msgstr "%1$s <em>på</em> %2$s"
+
 #: inc/template-tags.php:71
 msgid "Pingback:"
 msgstr "Tilbaketråkk:"
-
-#: inc/template-tags.php:44
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Eldre innlegg"
 
 #: inc/template-tags.php:48
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nyere innlegg <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:38
-msgctxt "Previous post link"
-msgid "&larr;"
-msgstr "&larr;"
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eldre innlegg"
 
 #: inc/template-tags.php:39
 msgctxt "Next post link"
 msgid "&rarr;"
 msgstr "&rarr;"
+
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
 
 #: inc/template-tags.php:34
 msgid "Post navigation"
@@ -80,13 +89,13 @@ msgstr "Innleggsnavigasjon"
 msgid "Page %s"
 msgstr "Side %s"
 
-#: image.php:105
-msgid "Both comments and trackbacks are currently closed."
-msgstr "Både kommentarer og trackbacks er for øyeblikket lukket."
-
 #: inc/customizer.php:35
 msgid "Link Color"
 msgstr "Lenkefargen"
+
+#: image.php:105
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Både kommentarer og trackbacks er for øyeblikket lukket."
 
 #: image.php:103
 msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
@@ -96,13 +105,13 @@ msgstr "Trackbaks er ikke mulig, men du kan <a class=\"comment-link\" href=\"#re
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "Kommentarene er lukket, men du kan etterlate en tilbakesporing: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Tilbakesporingsnettadressen</a>."
 
-#: image.php:39
-msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Neste <span class=\"meta-nav\">&rarr;</span>"
-
 #: image.php:99
 msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Send en kommentar\">Send en kommentar</a> eller etterlat en tilbakesporing: <a class=\"trackback-link\" href=\"%s\" title=\"Tilbakesporings-URL for innlegget ditt\" rel=\"trackback\">Tilbakesporings-URL</a>."
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Neste <span class=\"meta-nav\">&rarr;</span>"
 
 #: image.php:38
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
@@ -129,13 +138,13 @@ msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:66
-msgid "Primary Menu"
-msgstr "Primærmeny"
-
 #: functions.php:97
 msgid "Sidebar"
 msgstr "Sidekolonnen"
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr "Primærmeny"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
@@ -149,6 +158,14 @@ msgstr "Stolt drevet av %s"
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Les videre <span class=\"meta-nav\">&rarr;</span>"
 
+#: content-single.php:33 content.php:33
+msgid "<br />Tags:"
+msgstr "<br />Stikkord:"
+
+#: content-single.php:13 content.php:13
+msgid "Posts by %1$s ( @%2$s )"
+msgstr "Innlegg av %1$s ( @%2$s )"
+
 #: content-page.php:12 content-single.php:45 content.php:50 image.php:93
 msgid "Pages:"
 msgstr "Sider:"
@@ -157,13 +174,13 @@ msgstr "Sider:"
 msgid "Comments are closed."
 msgstr "Kommentarer er stengt."
 
-#: comments.php:31 comments.php:51
-msgid "&larr; Older Comments"
-msgstr "&larr; Eldre kommentarer"
-
 #: comments.php:32 comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "Nyere kommentarer &rarr;"
+
+#: comments.php:31 comments.php:51
+msgid "&larr; Older Comments"
+msgstr "&larr; Eldre kommentarer"
 
 #: comments.php:30 comments.php:50
 msgid "Comment navigation"
@@ -181,54 +198,54 @@ msgstr "Lenker"
 msgid "Quotes"
 msgstr "Sitater"
 
-#: archive.php:53
-msgid "Images"
-msgstr "Bilder"
-
 #: archive.php:56
 msgid "Videos"
 msgstr "Filmer"
 
-#: archive.php:47
-msgid "Yearly Archives: %s"
-msgstr "Årlige arkiver: %s"
+#: archive.php:53
+msgid "Images"
+msgstr "Bilder"
 
 #: archive.php:50
 msgid "Asides"
 msgstr "Digresjoner"
 
+#: archive.php:47
+msgid "Yearly Archives: %s"
+msgstr "Årlige arkiver: %s"
+
 #: archive.php:44
 msgid "Monthly Archives: %s"
 msgstr "Månedlige arkiver: %s"
-
-#: archive.php:33
-msgid "Author Archives: %s"
-msgstr "Forfatterarkiv: %s"
 
 #: archive.php:41
 msgid "Daily Archives: %s"
 msgstr "Daglige arkiver: %s"
 
+#: archive.php:33
+msgid "Author Archives: %s"
+msgstr "Forfatterarkiv: %s"
+
 #: archive.php:26
 msgid "Tag Archives: %s"
 msgstr "Stikkordarkiv: %s"
+
+#: archive.php:23
+msgid "Category Archives: %s"
+msgstr "Kategoriarkiv: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Forsøk de månedlige arkivene. %1$s"
 
-#: archive.php:23
-msgid "Category Archives: %s"
-msgstr "Kategoriarkiv: %s"
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Mest brukte kategorier"
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "Det ble tydeligvis ikke funnet noe her. Kanskje forsøke en av lenkene under eller et søk?"
-
-#: 404.php:27
-msgid "Most Used Categories"
-msgstr "Mest brukte kategorier"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
