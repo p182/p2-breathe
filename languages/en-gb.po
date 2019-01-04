@@ -16,18 +16,13 @@ msgstr ""
 msgid "Communication is oxygen. P2 \"Breathe\" is the first o2-enabled theme."
 msgstr "Communication is oxygen. P2 \"Breathe\" is the first o2-enabled theme."
 
-#: searchform.php:11
-msgctxt "submit button"
-msgid "Search"
-msgstr "Search"
-
 #: searchform.php:10
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Search &hellip;"
 
-#: searchform.php:9
-msgctxt "assistive text"
+#: searchform.php:11
+msgctxt "submit button"
 msgid "Search"
 msgstr "Search"
 
@@ -35,30 +30,35 @@ msgstr "Search"
 msgid "Search Results for: %s"
 msgstr "Search Results for: %s"
 
+#: searchform.php:9
+msgctxt "assistive text"
+msgid "Search"
+msgstr "Search"
+
 #: no-results.php:28
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-
-#: no-results.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 
 #: no-results.php:19
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
 #: no-results.php:13
 msgid "Nothing Found"
 msgstr "Nothing Found"
+
+#: index.php:27
+msgid "Recent Updates"
+msgstr "Recent Updates"
 
 #: index.php:31
 msgctxt "Month name"
 msgid "Updates from %s"
 msgstr "Updates from %s"
-
-#: index.php:27
-msgid "Recent Updates"
-msgstr "Recent Updates"
 
 #: inc/template-tags.php:176
 msgid "%1$s <em>on</em> %2$s"
@@ -68,23 +68,23 @@ msgstr "%1$s <em>on</em> %2$s"
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: inc/template-tags.php:48
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-
 #: inc/template-tags.php:44
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Older posts"
 
-#: inc/template-tags.php:39
-msgctxt "Next post link"
-msgid "&rarr;"
-msgstr "&rarr;"
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:38
 msgctxt "Previous post link"
 msgid "&larr;"
 msgstr "&larr;"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
 
 #: inc/template-tags.php:34
 msgid "Post navigation"
@@ -152,13 +152,13 @@ msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:97
-msgid "Sidebar"
-msgstr "Sidebar"
-
 #: functions.php:66
 msgid "Primary Menu"
 msgstr "Primary Menu"
+
+#: functions.php:97
+msgid "Sidebar"
+msgstr "Sidebar"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
@@ -212,13 +212,13 @@ msgstr "Links"
 msgid "Quotes"
 msgstr "Quotes"
 
-#: archive.php:56
-msgid "Videos"
-msgstr "Videos"
-
 #: archive.php:53
 msgid "Images"
 msgstr "Images"
+
+#: archive.php:56
+msgid "Videos"
+msgstr "Videos"
 
 #: archive.php:50
 msgid "Asides"
@@ -232,34 +232,34 @@ msgstr "Yearly Archives: %s"
 msgid "Monthly Archives: %s"
 msgstr "Monthly Archives: %s"
 
-#: archive.php:41
-msgid "Daily Archives: %s"
-msgstr "Daily Archives: %s"
-
 #: archive.php:33
 msgid "Author Archives: %s"
 msgstr "Author Archives: %s"
 
+#: archive.php:41
+msgid "Daily Archives: %s"
+msgstr "Daily Archives: %s"
+
 #: archive.php:26
 msgid "Tag Archives: %s"
 msgstr "Tag Archives: %s"
-
-#: archive.php:23
-msgid "Category Archives: %s"
-msgstr "Category Archives: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Try looking in the monthly archives. %1$s"
 
-#: 404.php:27
-msgid "Most Used Categories"
-msgstr "Most Used Categories"
+#: archive.php:23
+msgid "Category Archives: %s"
+msgstr "Category Archives: %s"
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Most Used Categories"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
