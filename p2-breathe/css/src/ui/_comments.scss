@@ -15,28 +15,10 @@
 
 		.o2-comment{
 			border-top-width: 0px !important;
-			border-left: 2px darken( $gray-2, 10% ) solid;
-			padding-left: 10px !important;
+			border-left: none;
+			padding-left: 0 !important;
 			padding-top: 0;
 			margin-bottom: 20px;
-
-			.o2-comment{
-				border-left: 2px darken( $gray-2, 20% ) solid;
-
-				.o2-comment{
-					border-left: 2px darken( $gray-2, 30% ) solid;
-
-					.o2-comment{
-						border-left: 2px darken( $gray-2, 40% ) solid;
-
-						.o2-comment{
-							border-left: 2px darken( $gray-2, 50% ) solid;
-							
-						}
-
-					}
-				}
-			}
 		}
 
 	}
@@ -150,7 +132,7 @@
 		}
 
 		.o2-child-comments {
-			padding-left: 3.5em;
+			padding-left: 1.5em;
 		}
 	}
 
@@ -161,7 +143,7 @@
 
 	> .o2-comment {
 		/* Override left padding for top level comments */
-		
+
 
 		/* Make sure we have padding on the last top level comment */
 		&:last-child {
@@ -273,7 +255,7 @@
 
 .comment-meta {
 	margin-left: 45px;
-	
+
 }
 
 .comment-list article {
@@ -299,7 +281,7 @@
 
 	.o2-child-comments {
 		padding: 0.5em 0 0 0 !important;
-		
+
 
 		.o2-comment{
 			padding-left: 1.5em;
@@ -365,7 +347,7 @@
 				}
 
 				&.o2-comment-like{
-					
+
 
 					&.liked{
 
@@ -373,7 +355,7 @@
 							color: $orange-25;
 						}
 					}
-				}	
+				}
 			}
 
 			&.o2-comment-edit{
