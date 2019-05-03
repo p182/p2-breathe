@@ -15,10 +15,18 @@
 
 		.o2-comment{
 			border-top-width: 0px !important;
-			border-left: none;
-			padding-left: 0 !important;
+			border-left: 2px darken( $gray-2, 10% ) solid;
+			padding-left: 4px !important;
 			padding-top: 0;
 			margin-bottom: 20px;
+
+			.o2-comment .o2-comment {
+				border-left: 2px #999 solid;
+
+				.o2-comment {
+					border-left: none;
+				}
+			}
 		}
 
 	}
