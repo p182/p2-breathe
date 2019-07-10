@@ -1848,11 +1848,9 @@ td.recentcommentstextend {
     padding-top: 0;
     margin-bottom: 20px;
   }
-
   .o2-comment .o2-comment .o2-comment .o2-comment {
     border-left: 2px #999 solid;
   }
-
   .o2-comment .o2-comment .o2-comment .o2-comment .o2-comment {
     border-left: none;
   }
@@ -2171,4 +2169,51 @@ article.tag-p2-xpost .comment .avatar {
     padding: 18px;
     font-size: 110%;
   }
+}
+/* Provides a fallback when front-end editing is off. */
+body:not(.o2) {
+  /* Clear after content container */
+  /* Post navigation */
+  /* Comment navigation */
+  /* Comments */
+}
+body:not(.o2) .site-main:before,
+body:not(.o2) .site-main:after {
+  content: '';
+  display: table;
+}
+body:not(.o2) .site-main:after {
+  clear: both;
+}
+body:not(.o2) .navigation-post {
+  background: white;
+}
+body:not(.o2) .navigation-comment {
+  padding: 15px 0;
+  border-bottom: 1px solid #bbbbbb;
+  border-top: 1px solid #bbbbbb;
+}
+body:not(.o2) #comment-nav-above {
+  margin-bottom: 1.2em;
+}
+body:not(.o2) .content-area aside {
+  background: white;
+  padding: 1.6em 0;
+}
+body:not(.o2) .comments-area .comment-meta {
+  margin-left: 45px;
+}
+body:not(.o2) .comments-area .avatar {
+  display: block;
+  float: left;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+body:not(.o2) .comments-area .comment-content {
+  padding-right: 1.6em;
+  margin-left: 45px;
+}
+body:not(.o2) .comments-area .children {
+  font-size: 1.05em;
+  padding-left: 1.5em;
 }
