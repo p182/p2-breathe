@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"PO-Revision-Date: 2020-01-16 01:40:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -87,6 +87,10 @@ msgstr "Laman %s"
 #: inc/customizer.php:35
 msgid "Link Color"
 msgstr "Warna tautan"
+
+#: image.php:105
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Komentar dan trackbacks ditutup"
 
 #: image.php:101
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
