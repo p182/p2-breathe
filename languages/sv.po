@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-26 21:11:57+0000\n"
+"PO-Revision-Date: 2020-02-27 11:28:00+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -97,6 +97,10 @@ msgstr "Både trackbacks och kommentarer är för tillfället inaktiverade."
 msgid "Link Color"
 msgstr "Länkfärg"
 
+#: inc/customizer.php:24
+msgid "Alternate Color"
+msgstr "Alternativ färg"
+
 #: image.php:101
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "Kommetarer är inaktiverade, men du kan lämna en trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL för ditt inlägg\" rel=\"trackback\">Trackback URL</a>"
@@ -132,6 +136,11 @@ msgstr "Hoppa till innehåll"
 #: header.php:32
 msgid "Menu"
 msgstr "Meny"
+
+#: functions.php:119
+msgctxt "Serif: on or off"
+msgid "on"
+msgstr "on"
 
 #: functions.php:116
 msgctxt "Open Sans font: on or off"
