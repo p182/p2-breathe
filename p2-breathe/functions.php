@@ -99,8 +99,16 @@ add_action( 'after_setup_theme', 'breathe_register_custom_background' );
  */
 function breathe_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'p2-breathe' ),
+		'name'          => __( 'Sidebar for Posts', 'p2-breathe' ),
 		'id'            => 'sidebar-1',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+	register_sidebar( array(
+		'name'          => __( 'Sidebar for Pages', 'p2-breathe' ),
+		'id'            => 'sidebar-pages',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h3 class="widget-title">',
@@ -169,7 +177,7 @@ add_action( 'wp_enqueue_scripts', 'breathe_scripts' );
  * Add a no-sidebar body class, if there are no widgets in the sidebar.
  */
 function breathe_check_no_sidebar( $body_classes ) {
-	if( ! is_active_sidebar( 'sidebar-1' ) )
+	if( ! is_active_sidebar( 'sidebar-1' ) && ! ( is_page() && is_active_sidebar( 'sidebar-pages' ) ) )
 		$body_classes[] = 'no-sidebar';
 
 	return $body_classes;
