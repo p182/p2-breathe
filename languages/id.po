@@ -124,18 +124,14 @@ msgstr "Lanjut ke konten"
 msgid "Menu"
 msgstr "Menu"
 
-#: functions.php:116
+#: functions.php:129
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:66
+#: functions.php:71
 msgid "Primary Menu"
 msgstr "Menu Utama"
-
-#: functions.php:97
-msgid "Sidebar"
-msgstr "Bilah Sisi"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."

@@ -137,23 +137,19 @@ msgstr "Hoppa till innehåll"
 msgid "Menu"
 msgstr "Meny"
 
-#: functions.php:119
+#: functions.php:132
 msgctxt "Serif: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:116
+#: functions.php:129
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "på"
 
-#: functions.php:66
+#: functions.php:71
 msgid "Primary Menu"
 msgstr "Primär meny"
-
-#: functions.php:97
-msgid "Sidebar"
-msgstr "Sidopanel"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."

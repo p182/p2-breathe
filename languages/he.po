@@ -16,18 +16,13 @@ msgstr ""
 msgid "Communication is oxygen. P2 \"Breathe\" is the first o2-enabled theme."
 msgstr "תקשורת היא חמצן. P2 ״Breathe״ היא ערכת העיצוב הראשונה המופעלת בחמצן."
 
-#: searchform.php:11
-msgctxt "submit button"
-msgid "Search"
-msgstr "חיפוש"
-
 #: searchform.php:10
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "חיפוש &hellip;"
 
-#: searchform.php:9
-msgctxt "assistive text"
+#: searchform.php:11
+msgctxt "submit button"
 msgid "Search"
 msgstr "חיפוש"
 
@@ -35,56 +30,61 @@ msgstr "חיפוש"
 msgid "Search Results for: %s"
 msgstr "תוצאות חיפוש עבור %s"
 
+#: searchform.php:9
+msgctxt "assistive text"
+msgid "Search"
+msgstr "חיפוש"
+
 #: no-results.php:28
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "מה שחיפשת לא נמצא. אולי חיפוש יכול לעזור."
-
-#: no-results.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "לא נמצאו תוצאות התואמות לחיפוש. יש לנסות שנית עם מילות מפתח חלופיות."
 
 #: no-results.php:19
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "מוכנים לפרסם את הפוסט הראשון? <a href=\"%1$s\">התחילו כאן</a>."
 
+#: no-results.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "לא נמצאו תוצאות התואמות לחיפוש. יש לנסות שנית עם מילות מפתח חלופיות."
+
 #: no-results.php:13
 msgid "Nothing Found"
 msgstr "דבר לא נמצא"
+
+#: inc/template-tags.php:176
+msgid "%1$s <em>on</em> %2$s"
+msgstr "&rlm;%1$s בתאריך %2$s"
+
+#: index.php:27
+msgid "Recent Updates"
+msgstr "עדכונים אחרונים"
 
 #: index.php:31
 msgctxt "Month name"
 msgid "Updates from %s"
 msgstr "עדכונים מחודש %s"
 
-#: index.php:27
-msgid "Recent Updates"
-msgstr "עדכונים אחרונים"
-
-#: inc/template-tags.php:176
-msgid "%1$s <em>on</em> %2$s"
-msgstr "&rlm;%1$s בתאריך %2$s"
-
 #: inc/template-tags.php:71
 msgid "Pingback:"
 msgstr "פינגבק:"
-
-#: inc/template-tags.php:48
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr "פוסטים הבאים <span class=\"meta-nav\">&larr;</span>"
 
 #: inc/template-tags.php:44
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "‏<span class=\"meta-nav\">&rarr;</span> פוסטים קודמים"
 
-#: inc/template-tags.php:39
-msgctxt "Next post link"
-msgid "&rarr;"
-msgstr "&larr;"
+#: inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "פוסטים הבאים <span class=\"meta-nav\">&larr;</span>"
 
 #: inc/template-tags.php:38
 msgctxt "Previous post link"
 msgid "&larr;"
 msgstr "&rarr;"
+
+#: inc/template-tags.php:39
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&larr;"
 
 #: inc/template-tags.php:34
 msgid "Post navigation"
@@ -94,6 +94,10 @@ msgstr "ניווט ברשומות"
 msgid "Page %s"
 msgstr "עמוד %s"
 
+#: image.php:105
+msgid "Both comments and trackbacks are currently closed."
+msgstr "סגור לפרסום תגובות והשארת עקבות."
+
 #: inc/customizer.php:35
 msgid "Link Color"
 msgstr "צבע קישורים"
@@ -102,37 +106,33 @@ msgstr "צבע קישורים"
 msgid "Alternate Color"
 msgstr "צבע חלופי"
 
-#: image.php:105
-msgid "Both comments and trackbacks are currently closed."
-msgstr "סגור לפרסום תגובות והשארת עקבות."
+#: image.php:101
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "סגור לתגובות, אבל ניתן להשאיר עקבות: <a class=\"trackback-link\" href=\"%s\" title=\"נתיב להשארת עקבות לרשומה שלך\" rel=\"trackback\">Trackback URL</a>."
 
 #: image.php:103
 msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
 msgstr "סגור להשארת עקבות, אבל ניתן <a class/\"comment-link\" href=\"#respond\" title=\"פרסם תגובה\">לפרסם תגובה</a>."
 
-#: image.php:101
-msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr "סגור לתגובות, אבל ניתן להשאיר עקבות: <a class=\"trackback-link\" href=\"%s\" title=\"נתיב להשארת עקבות לרשומה שלך\" rel=\"trackback\">Trackback URL</a>."
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "הבא <span class=\"meta-nav\">&rarr;</span>"
 
 #: image.php:99
 msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"פרסם תגובה\">פרסם תגובה</a> או השאר עקבות: <a class=\"trackback-link\" href=\"%s\" title=\"נתיב להשארת עקבות לרשומה שלך\" rel=\"trackback\">טראקבק</a>."
 
-#: image.php:39
-msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "הבא <span class=\"meta-nav\">&rarr;</span>"
-
 #: image.php:38
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> הקודם"
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
-msgid "Edit"
-msgstr "עריכה"
-
 #: image.php:23
 msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "פורסם בתאריך <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> בגודל <a href=\"%3$s\" title=\"קישור לתמונה בגודל מלא image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"בחזרה ל-%7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:34 image.php:107 inc/template-tags.php:71
+msgid "Edit"
+msgstr "עריכה"
 
 #: header.php:46
 msgid "Skip to content"
@@ -142,21 +142,17 @@ msgstr "דלג לתוכן"
 msgid "Menu"
 msgstr "תפריט"
 
-#: functions.php:119
+#: functions.php:132
 msgctxt "Serif: on or off"
 msgid "on"
 msgstr "off"
 
-#: functions.php:116
+#: functions.php:129
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:97
-msgid "Sidebar"
-msgstr "סרגל צדדי"
-
-#: functions.php:66
+#: functions.php:71
 msgid "Primary Menu"
 msgstr "תפריט ראשי"
 
@@ -168,13 +164,13 @@ msgstr "ערכת עיצוב: %1$s של %2$s."
 msgid "Proudly powered by %s"
 msgstr "פועל על %s"
 
-#: content.php:49
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "להמשיך לקרוא <span class=\"meta-nav\">&larr;</span>"
-
 #: content-single.php:33 content.php:33
 msgid "<br />Tags:"
 msgstr "<br />תגים:"
+
+#: content.php:49
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "להמשיך לקרוא <span class=\"meta-nav\">&larr;</span>"
 
 #: content-single.php:13 content.php:13
 msgid "Posts by %1$s ( @%2$s )"
@@ -188,13 +184,13 @@ msgstr ":עמודים"
 msgid "Comments are closed."
 msgstr "התגובות סגורות."
 
-#: comments.php:32 comments.php:52
-msgid "Newer Comments &rarr;"
-msgstr "תגובות חדשות יותר &larr;"
-
 #: comments.php:31 comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&rarr; תגובות ישנות יותר"
+
+#: comments.php:32 comments.php:52
+msgid "Newer Comments &rarr;"
+msgstr "תגובות חדשות יותר &larr;"
 
 #: comments.php:30 comments.php:50
 msgid "Comment navigation"
@@ -212,54 +208,54 @@ msgstr "קישורים"
 msgid "Quotes"
 msgstr "ציטוטים"
 
-#: archive.php:56
-msgid "Videos"
-msgstr "סרטונים"
-
 #: archive.php:53
 msgid "Images"
 msgstr "תמונות"
 
-#: archive.php:50
-msgid "Asides"
-msgstr "קצרצרים"
+#: archive.php:56
+msgid "Videos"
+msgstr "סרטונים"
 
 #: archive.php:47
 msgid "Yearly Archives: %s"
 msgstr "ארכיון שנתי: %s"
 
+#: archive.php:50
+msgid "Asides"
+msgstr "קצרצרים"
+
 #: archive.php:44
 msgid "Monthly Archives: %s"
 msgstr "ארכיון חודשי: %s"
-
-#: archive.php:41
-msgid "Daily Archives: %s"
-msgstr "ארכיון יומי: %s"
 
 #: archive.php:33
 msgid "Author Archives: %s"
 msgstr "ארכיון רשומות מאת: %s&rlm;"
 
+#: archive.php:41
+msgid "Daily Archives: %s"
+msgstr "ארכיון יומי: %s"
+
 #: archive.php:26
 msgid "Tag Archives: %s"
 msgstr "תגית: %s"
-
-#: archive.php:23
-msgid "Category Archives: %s"
-msgstr "קטגוריה: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "כדאי לחפש בארכיון החודשי. %1$s"
 
-#: 404.php:27
-msgid "Most Used Categories"
-msgstr "קטגוריות בולטות"
+#: archive.php:23
+msgid "Category Archives: %s"
+msgstr "קטגוריה: %s"
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "נראה שלא נמצא דבר בכתובת זו. כדאי לנסות אחד מהקישורים כאן למטה, או נסו באמצעות חיפוש"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "קטגוריות בולטות"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."

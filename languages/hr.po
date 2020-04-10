@@ -121,18 +121,14 @@ msgstr "Idi na sadržaj"
 msgid "Menu"
 msgstr "Izbornik"
 
-#: functions.php:116
+#: functions.php:129
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "uklj."
 
-#: functions.php:66
+#: functions.php:71
 msgid "Primary Menu"
 msgstr "Primarni Izbornik"
-
-#: functions.php:97
-msgid "Sidebar"
-msgstr "Bočna traka"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
