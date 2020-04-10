@@ -1,14 +1,14 @@
-# Copyright (C) 2017 Automattic
+# Copyright (C) 2020 Automattic
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
 "Project-Id-Version: P2 1.0-wpcom\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/p2-breathe\n"
-"POT-Creation-Date: 2017-04-21 22:58:45+00:00\n"
+"POT-Creation-Date: 2020-04-10 02:10:18+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
@@ -119,20 +119,24 @@ msgstr ""
 msgid "Theme: %1$s by %2$s."
 msgstr ""
 
-#: functions.php:66
+#: functions.php:71
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:97
-msgid "Sidebar"
+#: functions.php:102
+msgid "Sidebar for Posts"
 msgstr ""
 
-#: functions.php:116
+#: functions.php:110
+msgid "Sidebar for Pages"
+msgstr ""
+
+#: functions.php:129
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:119
+#: functions.php:132
 msgctxt "Serif: on or off"
 msgid "on"
 msgstr ""
