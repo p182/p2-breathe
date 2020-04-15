@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"PO-Revision-Date: 2020-04-14 23:31:05+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ja_JP\n"
 "Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+
+#: functions.php:110
+msgid "Sidebar for Pages"
+msgstr "ページのサイドバー"
+
+#: functions.php:102
+msgid "Sidebar for Posts"
+msgstr "投稿のサイドバー"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/p2-breathe/style.css
@@ -102,6 +110,10 @@ msgstr "コメント・トラックバックは受け付けていません。"
 msgid "Link Color"
 msgstr "リンクの色"
 
+#: inc/customizer.php:24
+msgid "Alternate Color"
+msgstr "代替色"
+
 #: image.php:101
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "現在コメントは受け付けていませんが、トラックバックを送信できます: <a class=\"trackback-link\" href=\"%s\" title=\"あなたの投稿用のトラックバック URL\" rel=\"trackback\">トラックバック URL</a>"
@@ -138,18 +150,14 @@ msgstr "コンテンツへスキップ"
 msgid "Menu"
 msgstr "メニュー"
 
-#: functions.php:116
+#: functions.php:129
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:66
+#: functions.php:71
 msgid "Primary Menu"
 msgstr "第1メニュー"
-
-#: functions.php:97
-msgid "Sidebar"
-msgstr "サイドバー"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
