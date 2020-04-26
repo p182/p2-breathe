@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-06-03 06:27:10+0000\n"
+"PO-Revision-Date: 2020-04-25 05:12:51+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ro\n"
 "Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+
+#: functions.php:110
+msgid "Sidebar for Pages"
+msgstr "Bară laterală pentru pagini"
+
+#: functions.php:102
+msgid "Sidebar for Posts"
+msgstr "Bară laterală pentru articole"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/p2-breathe/style.css
@@ -142,23 +150,19 @@ msgstr "Sari la conținut"
 msgid "Menu"
 msgstr "Meniu"
 
-#: functions.php:119
+#: functions.php:132
 msgctxt "Serif: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:116
+#: functions.php:129
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:66
+#: functions.php:71
 msgid "Primary Menu"
 msgstr "Meniu principal"
-
-#: functions.php:97
-msgid "Sidebar"
-msgstr "Bară laterală"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
