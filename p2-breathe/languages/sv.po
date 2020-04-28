@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-02-27 11:28:00+0000\n"
+"PO-Revision-Date: 2020-04-27 12:27:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,14 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: sv_SE\n"
 "Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+
+#: functions.php:110
+msgid "Sidebar for Pages"
+msgstr "Sidopanel för sidor"
+
+#: functions.php:102
+msgid "Sidebar for Posts"
+msgstr "Sidopanel för inlägg"
 
 #: searchform.php:10
 msgctxt "placeholder"
