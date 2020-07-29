@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"PO-Revision-Date: 2020-07-28 14:42:30+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,6 +49,11 @@ msgstr "لم يتم العثور على شيء"
 #: index.php:27
 msgid "Recent Updates"
 msgstr "آخر التدوينات"
+
+#: index.php:31
+msgctxt "Month name"
+msgid "Updates from %s"
+msgstr "تحديثات من: %s"
 
 #: inc/template-tags.php:71
 msgid "Pingback:"
@@ -124,18 +129,14 @@ msgstr "انتقل إلى المحتوى"
 msgid "Menu"
 msgstr "القائمة"
 
-#: functions.php:116
+#: functions.php:129
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:66
+#: functions.php:71
 msgid "Primary Menu"
 msgstr "القائمة الأساسية"
-
-#: functions.php:97
-msgid "Sidebar"
-msgstr "الشريط الجانبي"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
