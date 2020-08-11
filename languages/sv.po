@@ -1,14 +1,8 @@
-
-Warning: "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/wpcom/public_html/wp-content/rest-api-plugins/endpoints/happytools/schedule/models/class-day-settings.php on line 421 [translate.wordpress.com] [/rest-api-plugins/endpoints/happytools/schedule/models/include.php:15 require_once(''), /rest-api-plugins/endpoints/happytools/schedule/include.php:35 require_once('/rest-api-plugins/endpoints/happytools/schedule/models/include.php'), /rest-api-plugins/endpoints/happytools.php:27 require_once('/rest-api-plugins/endpoints/happytools/schedule/include.php'), bin/wp-cli-wpcom/commands/happytools-scheduler.php:5 require_once('/rest-api-plugins/endpoints/happytools.php'), /mu-plugins/0-wpcom-sandbox-helper.php:37 include('bin/wp-cli-wpcom/commands/happytools-scheduler.php'), wp-settings.php:325 include_once('/mu-plugins/0-wpcom-sandbox-helper.php'), bin/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1333 require('wp-settings.php'), bin/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1160 load_wordpress(), bin/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23 start(), bin/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php:74 process(), bin/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php:27 WP_CLI\bootstrap(), bin/wp-cli/php/boot-fs.php:17 include('bin/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php')]
-
-Warning: "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/wpcom/public_html/wp-content/rest-api-plugins/endpoints/happytools/schedule/models/class-day-settings.php on line 471 [translate.wordpress.com] [/rest-api-plugins/endpoints/happytools/schedule/models/include.php:15 require_once(''), /rest-api-plugins/endpoints/happytools/schedule/include.php:35 require_once('/rest-api-plugins/endpoints/happytools/schedule/models/include.php'), /rest-api-plugins/endpoints/happytools.php:27 require_once('/rest-api-plugins/endpoints/happytools/schedule/include.php'), bin/wp-cli-wpcom/commands/happytools-scheduler.php:5 require_once('/rest-api-plugins/endpoints/happytools.php'), /mu-plugins/0-wpcom-sandbox-helper.php:37 include('bin/wp-cli-wpcom/commands/happytools-scheduler.php'), wp-settings.php:325 include_once('/mu-plugins/0-wpcom-sandbox-helper.php'), bin/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1333 require('wp-settings.php'), bin/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1160 load_wordpress(), bin/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23 start(), bin/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php:74 process(), bin/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php:27 WP_CLI\bootstrap(), bin/wp-cli/php/boot-fs.php:17 include('bin/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php')]
-
-Warning: Cannot modify header information - headers already sent by (output started at /home/wpcom/public_html/.config/wpcom-options.php:760) in /home/wpcom/public_html/wp-includes/functions.php on line 6322 [translate.wordpress.com] [wp-includes/functions.php:6322 header(), /mu-plugins/wpcom-frame-handling.php:121 send_frame_options_header(), wp-includes/class-wp-hook.php:287 send_frame_options_header_for_automattic_flagged_sites(), wp-includes/class-wp-hook.php:311 apply_filters(''), wp-includes/plugin.php:478 do_action(Array), wp-settings.php:528 do_action('init'), bin/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1333 require('wp-settings.php'), bin/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1160 load_wordpress(), bin/wp-cli/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23 start(), bin/wp-cli/vendor/wp-cli/wp-cli/php/bootstrap.php:74 process(), bin/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php:27 WP_CLI\bootstrap(), bin/wp-cli/php/boot-fs.php:17 include('bin/wp-cli/vendor/wp-cli/wp-cli/php/wp-cli.php')]
 # Translation of WordPress.com - Themes - P2-breathe in Swedish
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-01 13:21:13+0000\n"
+"PO-Revision-Date: 2020-08-10 17:45:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,13 +19,23 @@ msgstr "Sidopanel för sidor"
 msgid "Sidebar for Posts"
 msgstr "Sidopanel för inlägg"
 
+#. Description of the plugin/theme
+#: wp-content/themes/pub/p2-breathe/style.css
+msgid "Communication is oxygen. P2 \"Breathe\" is the first o2-enabled theme."
+msgstr "Kommunikation är syre. P2 ”Breathe” är det första o2-aktiverade temat."
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Sök"
+
 #: searchform.php:10
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Sök &hellip;"
 
-#: searchform.php:11
-msgctxt "submit button"
+#: searchform.php:9
+msgctxt "assistive text"
 msgid "Search"
 msgstr "Sök"
 
@@ -39,61 +43,56 @@ msgstr "Sök"
 msgid "Search Results for: %s"
 msgstr "Sökresultat för: %s"
 
-#: searchform.php:9
-msgctxt "assistive text"
-msgid "Search"
-msgstr "Sök"
-
 #: no-results.php:28
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Det verkar inte som om vi kan hitta det du letar efter. Kanske kan en sökning hjälpa."
-
-#: no-results.php:19
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Är du redo att posta ditt första inlägg? <a href=\"%1$s\">Starta här</a>."
 
 #: no-results.php:23
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Ledsen, inget matchade dina sökkriterier. Vänligen försök igen med andra nyckelord."
 
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Är du redo att posta ditt första inlägg? <a href=\"%1$s\">Starta här</a>."
+
 #: no-results.php:13
 msgid "Nothing Found"
 msgstr "Inget funnet"
-
-#: inc/template-tags.php:176
-msgid "%1$s <em>on</em> %2$s"
-msgstr "%1$s <em>den</em> %2$s"
-
-#: index.php:27
-msgid "Recent Updates"
-msgstr "Senaste uppdateringar"
 
 #: index.php:31
 msgctxt "Month name"
 msgid "Updates from %s"
 msgstr "Uppdateringar från %s"
 
+#: index.php:27
+msgid "Recent Updates"
+msgstr "Senaste uppdateringar"
+
+#: inc/template-tags.php:176
+msgid "%1$s <em>on</em> %2$s"
+msgstr "%1$s <em>den</em> %2$s"
+
 #: inc/template-tags.php:71
 msgid "Pingback:"
 msgstr "Ping:"
-
-#: inc/template-tags.php:44
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Äldre inlägg"
 
 #: inc/template-tags.php:48
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nyare inlägg <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:38
-msgctxt "Previous post link"
-msgid "&larr;"
-msgstr "&larr;"
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Äldre inlägg"
 
 #: inc/template-tags.php:39
 msgctxt "Next post link"
 msgid "&rarr;"
 msgstr "&rarr;"
+
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
 
 #: inc/template-tags.php:34
 msgid "Post navigation"
@@ -103,10 +102,6 @@ msgstr "Inläggsnavigering"
 msgid "Page %s"
 msgstr "Sida %s"
 
-#: image.php:105
-msgid "Both comments and trackbacks are currently closed."
-msgstr "Både trackbacks och kommentarer är för tillfället inaktiverade."
-
 #: inc/customizer.php:35
 msgid "Link Color"
 msgstr "Länkfärg"
@@ -115,21 +110,25 @@ msgstr "Länkfärg"
 msgid "Alternate Color"
 msgstr "Alternativ färg"
 
-#: image.php:101
-msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
-msgstr "Kommetarer är inaktiverade, men du kan lämna en trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL för ditt inlägg\" rel=\"trackback\">Trackback URL</a>"
+#: image.php:105
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Både trackbacks och kommentarer är för tillfället inaktiverade."
 
 #: image.php:103
 msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
 msgstr "Trackbacks är inaktiverade, men du kan <a class=\"comment-link\" href=\"#respond\" title=\"Posta en kommentar\">posta en kommentar</a>."
 
-#: image.php:39
-msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Nästa <span class=\"meta-nav\">&rarr;</span>"
+#: image.php:101
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Kommetarer är inaktiverade, men du kan lämna en trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL för ditt inlägg\" rel=\"trackback\">Trackback URL</a>"
 
 #: image.php:99
 msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Posta en kommentar\">Posta en kommentar</a> eller lämna en trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL för ditt inlägg\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nästa <span class=\"meta-nav\">&rarr;</span>"
 
 #: image.php:38
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
@@ -173,13 +172,13 @@ msgstr "Tema: %1$s av %2$s."
 msgid "Proudly powered by %s"
 msgstr "Drivs med %s"
 
-#: content-single.php:33 content.php:33
-msgid "<br />Tags:"
-msgstr "<br />Etiketter:"
-
 #: content.php:49
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Läs mer <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-single.php:33 content.php:33
+msgid "<br />Tags:"
+msgstr "<br />Etiketter:"
 
 #: content-single.php:13 content.php:13
 msgid "Posts by %1$s ( @%2$s )"
@@ -193,13 +192,13 @@ msgstr "Sidor:"
 msgid "Comments are closed."
 msgstr "Kommentarsfunktionen är stängd."
 
-#: comments.php:31 comments.php:51
-msgid "&larr; Older Comments"
-msgstr "&larr; Äldre kommentarer"
-
 #: comments.php:32 comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "Nyare kommentarer &rarr;"
+
+#: comments.php:31 comments.php:51
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
 
 #: comments.php:30 comments.php:50
 msgid "Comment navigation"
@@ -217,54 +216,54 @@ msgstr "Länkar"
 msgid "Quotes"
 msgstr "Citat"
 
-#: archive.php:53
-msgid "Images"
-msgstr "Bilder"
-
 #: archive.php:56
 msgid "Videos"
 msgstr "Videoklipp"
 
-#: archive.php:47
-msgid "Yearly Archives: %s"
-msgstr "Årsarkiv: %s"
+#: archive.php:53
+msgid "Images"
+msgstr "Bilder"
 
 #: archive.php:50
 msgid "Asides"
 msgstr "Noteringar"
 
+#: archive.php:47
+msgid "Yearly Archives: %s"
+msgstr "Årsarkiv: %s"
+
 #: archive.php:44
 msgid "Monthly Archives: %s"
 msgstr "Månadsarkiv: %s"
-
-#: archive.php:33
-msgid "Author Archives: %s"
-msgstr "Författararkiv: %s"
 
 #: archive.php:41
 msgid "Daily Archives: %s"
 msgstr "Dagsarkiv: %s"
 
+#: archive.php:33
+msgid "Author Archives: %s"
+msgstr "Författararkiv: %s"
+
 #: archive.php:26
 msgid "Tag Archives: %s"
 msgstr "Etikettarkiv: %s"
+
+#: archive.php:23
+msgid "Category Archives: %s"
+msgstr "Kategoriarkiv: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Prova att leta i månadsarkiven. %1$s"
 
-#: archive.php:23
-msgid "Category Archives: %s"
-msgstr "Kategoriarkiv: %s"
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Mest använda kategorier"
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "Det verkar som att det inte finns någonting här. Du kan testa en av länkarna nedan eller att göra en sökning."
-
-#: 404.php:27
-msgid "Most Used Categories"
-msgstr "Mest använda kategorier"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
