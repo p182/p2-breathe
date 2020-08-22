@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-20 06:30:29+0000\n"
+"PO-Revision-Date: 2020-08-21 12:22:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -93,6 +93,10 @@ msgstr "Saites krāsa"
 msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 msgstr "Komentāri ir slēgti, bet tu vari atstāt atsauci: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Atsauces URL</a>."
 
+#: image.php:103
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Izsekošanas atgriezeniskā saite ir slēgta, taču jūs varat <a class=\"comment-link\" href=\"#respond\" title=\"Publicēt komentāru\"> ievietot komentāru </a>."
+
 #: image.php:39
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nākošais <span class=\"meta-nav\">&rarr;</span>"
@@ -105,6 +109,10 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Iepriekšējais"
 msgid "Edit"
 msgstr "Rediģēt"
 
+#: image.php:23
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "Publicēts <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> iekš <a href=\"%3$s\" title=\"Link to full-size mage\">%4$s &times; %5$s</a> iekš <a href=\"%6$s\" title=\"Atgriezties %7$s\" rel=\"gallery\">%8$s</a>"
+
 #: header.php:46
 msgid "Skip to content"
 msgstr "Doties uz saturu"
@@ -113,18 +121,14 @@ msgstr "Doties uz saturu"
 msgid "Menu"
 msgstr "Izvēlne"
 
-#: functions.php:116
+#: functions.php:129
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:66
+#: functions.php:71
 msgid "Primary Menu"
 msgstr "Primārā izvēlne"
-
-#: functions.php:97
-msgid "Sidebar"
-msgstr "Sānumala"
 
 #: footer.php:18
 msgid "Theme: %1$s by %2$s."
