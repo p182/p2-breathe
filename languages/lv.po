@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-08-21 12:22:48+0000\n"
+"PO-Revision-Date: 2020-09-02 11:30:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -100,6 +100,10 @@ msgstr "Izsekošanas atgriezeniskā saite ir slēgta, taču jūs varat <a class=
 #: image.php:39
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nākošais <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:99
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Pievieno komentāru</a> vai atstāj trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
 
 #: image.php:38
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
