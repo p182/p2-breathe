@@ -1,15 +1,17 @@
-# Translation of WordPress.com - Themes - P2-breathe in Azerbaijani
-# This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T03:25:32+00:00\n"
+"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"Language: az\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: az\n"
-"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
 #: searchform.php:10
 msgctxt "placeholder"
@@ -76,7 +78,8 @@ msgstr "&rarr;"
 msgid "Post navigation"
 msgstr "Yazılar üzrə naviqasiya"
 
-#: inc/extras.php:70 index.php:27
+#: inc/extras.php:70
+#: index.php:27
 msgid "Page %s"
 msgstr "Səhifə %s"
 
@@ -112,7 +115,9 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Öncəki"
 msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "<span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> tarixində <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> üzərində <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a> içində dərc edildi."
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
+#: image.php:34
+#: image.php:107
+#: inc/template-tags.php:71
 msgid "Edit"
 msgstr "Redaktə et"
 
@@ -145,7 +150,8 @@ msgstr "Mövzu: %1$s tərəfindən %2$s."
 msgid "Proudly powered by %s"
 msgstr "%s qürurla təqdim edər"
 
-#: content-single.php:33 content.php:33
+#: content-single.php:33
+#: content.php:33
 msgid "<br />Tags:"
 msgstr "<br />Etiketlər:"
 
@@ -153,7 +159,10 @@ msgstr "<br />Etiketlər:"
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Oxumağa davam et <span class=\"meta-nav\">&rarr;</span>"
 
-#: content-page.php:12 content-single.php:45 content.php:50 image.php:93
+#: content-page.php:12
+#: content-single.php:45
+#: content.php:50
+#: image.php:93
 msgid "Pages:"
 msgstr "Səhifələr:"
 
@@ -161,15 +170,18 @@ msgstr "Səhifələr:"
 msgid "Comments are closed."
 msgstr "Şərh üçün bağlıdır."
 
-#: comments.php:31 comments.php:51
+#: comments.php:31
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; Əski şərhlər"
 
-#: comments.php:32 comments.php:52
+#: comments.php:32
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "Yeni şərhlər &rarr;"
 
-#: comments.php:30 comments.php:50
+#: comments.php:30
+#: comments.php:50
 msgid "Comment navigation"
 msgstr "Şərh naviqasiyası"
 

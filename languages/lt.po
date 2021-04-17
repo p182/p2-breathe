@@ -1,15 +1,17 @@
-# Translation of WordPress.com - Themes - P2-breathe in Lithuanian
-# This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-07-09 12:21:38+0000\n"
+"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T03:25:32+00:00\n"
+"PO-Revision-Date: 2017-07-09 12:21:38+0000\n"
+"Language: lt\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: lt\n"
-"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/p2-breathe/style.css
@@ -90,7 +92,8 @@ msgstr "&rarr;"
 msgid "Post navigation"
 msgstr "Navigacija tarp įrašų"
 
-#: inc/extras.php:70 index.php:27
+#: inc/extras.php:70
+#: index.php:27
 msgid "Page %s"
 msgstr "Puslapis %s"
 
@@ -130,7 +133,9 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Ankstesnis"
 msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "Paskelbta <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span>  <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> | <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
+#: image.php:34
+#: image.php:107
+#: inc/template-tags.php:71
 msgid "Edit"
 msgstr "Redaguoti"
 
@@ -172,15 +177,20 @@ msgstr "Sistema: %s"
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Skaityti toliau <span class=\"meta-nav\">&rarr;</span>"
 
-#: content-single.php:33 content.php:33
+#: content-single.php:33
+#: content.php:33
 msgid "<br />Tags:"
 msgstr "<br />Žymos:"
 
-#: content-single.php:13 content.php:13
+#: content-single.php:13
+#: content.php:13
 msgid "Posts by %1$s ( @%2$s )"
 msgstr "Autorius: %1$s | %2$s"
 
-#: content-page.php:12 content-single.php:45 content.php:50 image.php:93
+#: content-page.php:12
+#: content-single.php:45
+#: content.php:50
+#: image.php:93
 msgid "Pages:"
 msgstr "Puslapiai:"
 
@@ -188,15 +198,18 @@ msgstr "Puslapiai:"
 msgid "Comments are closed."
 msgstr "Komentarai uždrausti."
 
-#: comments.php:31 comments.php:51
+#: comments.php:31
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; Senesni komentarai"
 
-#: comments.php:32 comments.php:52
+#: comments.php:32
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "Naujesni komentarai &rarr;"
 
-#: comments.php:30 comments.php:50
+#: comments.php:30
+#: comments.php:50
 msgid "Comment navigation"
 msgstr "Komentaro nuorodos"
 

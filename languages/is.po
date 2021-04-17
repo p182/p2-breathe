@@ -1,15 +1,17 @@
-# Translation of WordPress.com - Themes - P2-breathe in Icelandic
-# This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T03:25:32+00:00\n"
+"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"Language: is\n"
 "Plural-Forms: nplurals=2; plural=(n % 100 != 1 && n % 100 != 21 && n % 100 != 31 && n % 100 != 41 && n % 100 != 51 && n % 100 != 61 && n % 100 != 71 && n % 100 != 81 && n % 100 != 91);\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: is\n"
-"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/p2-breathe/style.css
@@ -90,7 +92,8 @@ msgstr "&rarr;"
 msgid "Post navigation"
 msgstr "Leiðarstýring færslu"
 
-#: inc/extras.php:70 index.php:27
+#: inc/extras.php:70
+#: index.php:27
 msgid "Page %s"
 msgstr "Síða %s"
 
@@ -126,7 +129,9 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Fyrri"
 msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "Birt þann <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> kl <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Fara aftur í %7$s\" rel=\"gallery\">%8$s</a>"
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
+#: image.php:34
+#: image.php:107
+#: inc/template-tags.php:71
 msgid "Edit"
 msgstr "Leiðrétta"
 
@@ -159,7 +164,8 @@ msgstr "Þema: %1$s hannað af %2$s."
 msgid "Proudly powered by %s"
 msgstr "Knúið af %s með stolti"
 
-#: content-single.php:33 content.php:33
+#: content-single.php:33
+#: content.php:33
 msgid "<br />Tags:"
 msgstr "<br />Merki:"
 
@@ -167,11 +173,15 @@ msgstr "<br />Merki:"
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Halda áfram að lesa <span class=\"meta-nav\">&rarr;</span>"
 
-#: content-single.php:13 content.php:13
+#: content-single.php:13
+#: content.php:13
 msgid "Posts by %1$s ( @%2$s )"
 msgstr "Færslur eftir %1$s ( @%2$s )"
 
-#: content-page.php:12 content-single.php:45 content.php:50 image.php:93
+#: content-page.php:12
+#: content-single.php:45
+#: content.php:50
+#: image.php:93
 msgid "Pages:"
 msgstr "Síður:"
 
@@ -179,15 +189,18 @@ msgstr "Síður:"
 msgid "Comments are closed."
 msgstr "Lokað er fyrir athugasemdir."
 
-#: comments.php:31 comments.php:51
+#: comments.php:31
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; Eldri athugasemdir"
 
-#: comments.php:32 comments.php:52
+#: comments.php:32
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "Nýrri athugasemdir &rarr;"
 
-#: comments.php:30 comments.php:50
+#: comments.php:30
+#: comments.php:50
 msgid "Comment navigation"
 msgstr "Leiðarkerfi athugasemda"
 

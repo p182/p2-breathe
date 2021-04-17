@@ -1,15 +1,17 @@
-# Translation of WordPress.com - Themes - P2-breathe in Hindi
-# This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T03:25:32+00:00\n"
+"PO-Revision-Date: 2017-04-21 22:59:27+0000\n"
+"Language: hi_IN\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: hi_IN\n"
-"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
 #: searchform.php:10
 msgctxt "placeholder"
@@ -81,7 +83,8 @@ msgstr "&rarr;"
 msgid "Post navigation"
 msgstr "पोस्ट नेविगेशन"
 
-#: inc/extras.php:70 index.php:27
+#: inc/extras.php:70
+#: index.php:27
 msgid "Page %s"
 msgstr "पृष्ठ %s"
 
@@ -113,7 +116,9 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">ए
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> पिछला"
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
+#: image.php:34
+#: image.php:107
+#: inc/template-tags.php:71
 msgid "Edit"
 msgstr "संपादित करे"
 
@@ -150,7 +155,10 @@ msgstr "%s द्वारा गर्व से संचालित"
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "पढना जारी रखे <span class=\"meta-nav\">&rarr;</span>"
 
-#: content-page.php:12 content-single.php:45 content.php:50 image.php:93
+#: content-page.php:12
+#: content-single.php:45
+#: content.php:50
+#: image.php:93
 msgid "Pages:"
 msgstr "पृष्ठ:"
 
@@ -158,15 +166,18 @@ msgstr "पृष्ठ:"
 msgid "Comments are closed."
 msgstr "टिप्पणियाँ बंद कर दी गयी है।"
 
-#: comments.php:31 comments.php:51
+#: comments.php:31
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; पुरानी टिप्पणियाँ"
 
-#: comments.php:32 comments.php:52
+#: comments.php:32
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "नई टिप्पणियाँ &rarr;"
 
-#: comments.php:30 comments.php:50
+#: comments.php:30
+#: comments.php:50
 msgid "Comment navigation"
 msgstr "कमेन्ट (टिप्पणी) नेविगेशन"
 

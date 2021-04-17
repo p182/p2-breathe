@@ -1,15 +1,17 @@
-# Translation of WordPress.com - Themes - P2-breathe in English (UK)
-# This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-09-03 19:54:32+0000\n"
+"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T03:25:38+00:00\n"
+"PO-Revision-Date: 2020-09-03 19:54:32+0000\n"
+"Language: en_GB\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: en_GB\n"
-"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
 #: functions.php:110
 msgid "Sidebar for Pages"
@@ -19,18 +21,22 @@ msgstr "Sidebar for Pages"
 msgid "Sidebar for Posts"
 msgstr "Sidebar for Posts"
 
-#. Description of the plugin/theme
-#: wp-content/themes/pub/p2-breathe/style.css
+#. Description of the theme
 msgid "Communication is oxygen. P2 \"Breathe\" is the first o2-enabled theme."
 msgstr "Communication is oxygen. P2 \"Breathe\" is the first o2-enabled theme."
+
+#: searchform.php:11
+msgctxt "submit button"
+msgid "Search"
+msgstr "Search"
 
 #: searchform.php:10
 msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Search &hellip;"
 
-#: searchform.php:11
-msgctxt "submit button"
+#: searchform.php:9
+msgctxt "assistive text"
 msgid "Search"
 msgstr "Search"
 
@@ -38,35 +44,30 @@ msgstr "Search"
 msgid "Search Results for: %s"
 msgstr "Search Results for: %s"
 
-#: searchform.php:9
-msgctxt "assistive text"
-msgid "Search"
-msgstr "Search"
-
 #: no-results.php:28
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-
-#: no-results.php:19
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 
 #: no-results.php:23
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 
+#: no-results.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
 #: no-results.php:13
 msgid "Nothing Found"
 msgstr "Nothing Found"
-
-#: index.php:27
-msgid "Recent Updates"
-msgstr "Recent Updates"
 
 #: index.php:31
 msgctxt "Month name"
 msgid "Updates from %s"
 msgstr "Updates from %s"
+
+#: index.php:27
+msgid "Recent Updates"
+msgstr "Recent Updates"
 
 #: inc/template-tags.php:176
 msgid "%1$s <em>on</em> %2$s"
@@ -76,29 +77,30 @@ msgstr "%1$s <em>on</em> %2$s"
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: inc/template-tags.php:44
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr "<span class=\"meta-nav\">&larr;</span> Older posts"
-
 #: inc/template-tags.php:48
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:38
-msgctxt "Previous post link"
-msgid "&larr;"
-msgstr "&larr;"
+#: inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Older posts"
 
 #: inc/template-tags.php:39
 msgctxt "Next post link"
 msgid "&rarr;"
 msgstr "&rarr;"
 
+#: inc/template-tags.php:38
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
 #: inc/template-tags.php:34
 msgid "Post navigation"
 msgstr "Post navigation"
 
-#: inc/extras.php:70 index.php:27
+#: inc/extras.php:70
+#: index.php:27
 msgid "Page %s"
 msgstr "Page %s"
 
@@ -134,7 +136,9 @@ msgstr "Next <span class=\"meta-nav\">&rarr;</span>"
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Previous"
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
+#: image.php:34
+#: image.php:107
+#: inc/template-tags.php:71
 msgid "Edit"
 msgstr "Edit"
 
@@ -145,10 +149,6 @@ msgstr "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime
 #: header.php:46
 msgid "Skip to content"
 msgstr "Skip to content"
-
-#: header.php:32
-msgid "Menu"
-msgstr "Menu"
 
 #: functions.php:132
 msgctxt "Serif: on or off"
@@ -176,15 +176,20 @@ msgstr "Proudly powered by %s"
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 
-#: content-single.php:33 content.php:33
+#: content-single.php:33
+#: content.php:33
 msgid "<br />Tags:"
 msgstr "<br />Tags:"
 
-#: content-single.php:13 content.php:13
+#: content-single.php:13
+#: content.php:13
 msgid "Posts by %1$s ( @%2$s )"
 msgstr "Posts by %1$s ( @%2$s )"
 
-#: content-page.php:12 content-single.php:45 content.php:50 image.php:93
+#: content-page.php:12
+#: content-single.php:45
+#: content.php:50
+#: image.php:93
 msgid "Pages:"
 msgstr "Pages:"
 
@@ -192,15 +197,18 @@ msgstr "Pages:"
 msgid "Comments are closed."
 msgstr "Comments are closed."
 
-#: comments.php:32 comments.php:52
+#: comments.php:32
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "Newer Comments &rarr;"
 
-#: comments.php:31 comments.php:51
+#: comments.php:31
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; Older Comments"
 
-#: comments.php:30 comments.php:50
+#: comments.php:30
+#: comments.php:50
 msgid "Comment navigation"
 msgstr "Comment navigation"
 
@@ -216,13 +224,13 @@ msgstr "Links"
 msgid "Quotes"
 msgstr "Quotes"
 
-#: archive.php:53
-msgid "Images"
-msgstr "Images"
-
 #: archive.php:56
 msgid "Videos"
 msgstr "Videos"
+
+#: archive.php:53
+msgid "Images"
+msgstr "Images"
 
 #: archive.php:50
 msgid "Asides"
@@ -236,34 +244,34 @@ msgstr "Yearly Archives: %s"
 msgid "Monthly Archives: %s"
 msgstr "Monthly Archives: %s"
 
-#: archive.php:33
-msgid "Author Archives: %s"
-msgstr "Author Archives: %s"
-
 #: archive.php:41
 msgid "Daily Archives: %s"
 msgstr "Daily Archives: %s"
 
+#: archive.php:33
+msgid "Author Archives: %s"
+msgstr "Author Archives: %s"
+
 #: archive.php:26
 msgid "Tag Archives: %s"
 msgstr "Tag Archives: %s"
+
+#: archive.php:23
+msgid "Category Archives: %s"
+msgstr "Category Archives: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:36
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Try looking in the monthly archives. %1$s"
 
-#: archive.php:23
-msgid "Category Archives: %s"
-msgstr "Category Archives: %s"
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Most Used Categories"
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-
-#: 404.php:27
-msgid "Most Used Categories"
-msgstr "Most Used Categories"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
