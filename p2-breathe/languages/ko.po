@@ -1,15 +1,17 @@
-# Translation of WordPress.com - Themes - P2-breathe in Korean
-# This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-06-02 15:08:04+0000\n"
+"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T03:25:32+00:00\n"
+"PO-Revision-Date: 2020-06-02 15:08:04+0000\n"
+"Language: ko_KR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: ko_KR\n"
-"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
 #: searchform.php:10
 msgctxt "placeholder"
@@ -75,7 +77,8 @@ msgstr "&rarr;"
 msgid "Post navigation"
 msgstr "글 네비게이션"
 
-#: inc/extras.php:70 index.php:27
+#: inc/extras.php:70
+#: index.php:27
 msgid "Page %s"
 msgstr "페이지 %s"
 
@@ -107,7 +110,9 @@ msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"댓글 달기\">댓�
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> 이전"
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
+#: image.php:34
+#: image.php:107
+#: inc/template-tags.php:71
 msgid "Edit"
 msgstr "편집"
 
@@ -136,7 +141,8 @@ msgstr "테마: %1$s(%2$s 제작)."
 msgid "Proudly powered by %s"
 msgstr "%s의 지원을 받습니다"
 
-#: content-single.php:33 content.php:33
+#: content-single.php:33
+#: content.php:33
 msgid "<br />Tags:"
 msgstr "<br />태그:"
 
@@ -144,11 +150,15 @@ msgstr "<br />태그:"
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "계속 읽기 <span class=\"meta-nav\">&rarr;</span>"
 
-#: content-single.php:13 content.php:13
+#: content-single.php:13
+#: content.php:13
 msgid "Posts by %1$s ( @%2$s )"
 msgstr "%1$s(@%2$s)의 글"
 
-#: content-page.php:12 content-single.php:45 content.php:50 image.php:93
+#: content-page.php:12
+#: content-single.php:45
+#: content.php:50
+#: image.php:93
 msgid "Pages:"
 msgstr "페이지:"
 
@@ -156,15 +166,18 @@ msgstr "페이지:"
 msgid "Comments are closed."
 msgstr "댓글이 닫혀있습니다."
 
-#: comments.php:31 comments.php:51
+#: comments.php:31
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&larr; 이전 댓글"
 
-#: comments.php:32 comments.php:52
+#: comments.php:32
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "다음 댓글 &rarr;"
 
-#: comments.php:30 comments.php:50
+#: comments.php:30
+#: comments.php:50
 msgid "Comment navigation"
 msgstr "댓글 탐색"
 

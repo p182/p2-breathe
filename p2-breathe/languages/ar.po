@@ -1,15 +1,17 @@
-# Translation of WordPress.com - Themes - P2-breathe in Arabic
-# This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-07-28 14:42:30+0000\n"
+"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T03:25:32+00:00\n"
+"PO-Revision-Date: 2020-07-28 14:42:30+0000\n"
+"Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: ar\n"
-"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
 #: searchform.php:10
 msgctxt "placeholder"
@@ -81,7 +83,8 @@ msgstr "&larr;"
 msgid "Post navigation"
 msgstr "تصفّح المقالات"
 
-#: inc/extras.php:70 index.php:27
+#: inc/extras.php:70
+#: index.php:27
 msgid "Page %s"
 msgstr "صفحة %s"
 
@@ -117,7 +120,9 @@ msgstr "<span class=\"meta-nav\">&rarr;</span> السابق"
 msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "نشرت <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> في <a href=\"%3$s\" title=\"رابط للصورة الكاملة\"> %4$s &times; %5$s</a> في <a href=\"%6$s\" title=\"الرجوع إلى %7$s\" rel=\"gallery\">%8$s</a>"
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
+#: image.php:34
+#: image.php:107
+#: inc/template-tags.php:71
 msgid "Edit"
 msgstr "تحرير"
 
@@ -150,7 +155,10 @@ msgstr "الموقع يستخدم %s بكل فخر"
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "إقرأ المزيد <span class=\"meta-nav\">&larr;</span>"
 
-#: content-page.php:12 content-single.php:45 content.php:50 image.php:93
+#: content-page.php:12
+#: content-single.php:45
+#: content.php:50
+#: image.php:93
 msgid "Pages:"
 msgstr "الصفحات:"
 
@@ -158,15 +166,18 @@ msgstr "الصفحات:"
 msgid "Comments are closed."
 msgstr "التعليقات مغلقة."
 
-#: comments.php:31 comments.php:51
+#: comments.php:31
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&rarr; التعليقات الأقدم"
 
-#: comments.php:32 comments.php:52
+#: comments.php:32
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "التعليقات الأحدث &larr;"
 
-#: comments.php:30 comments.php:50
+#: comments.php:30
+#: comments.php:50
 msgid "Comment navigation"
 msgstr "تصفّح التعليقات"
 

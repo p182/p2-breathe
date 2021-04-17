@@ -1,15 +1,17 @@
-# Translation of WordPress.com - Themes - P2-breathe in Hebrew
-# This file is distributed under the same license as the WordPress.com - Themes - P2-breathe package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-01-21 13:52:38+0000\n"
+"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-04-17T03:25:32+00:00\n"
+"PO-Revision-Date: 2020-01-21 13:52:38+0000\n"
+"Language: he_IL\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: he_IL\n"
-"Project-Id-Version: WordPress.com - Themes - P2-breathe\n"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/p2-breathe/style.css
@@ -90,7 +92,8 @@ msgstr "&larr;"
 msgid "Post navigation"
 msgstr "ניווט ברשומות"
 
-#: inc/extras.php:70 index.php:27
+#: inc/extras.php:70
+#: index.php:27
 msgid "Page %s"
 msgstr "עמוד %s"
 
@@ -130,7 +133,9 @@ msgstr "<span class=\"meta-nav\">&larr;</span> הקודם"
 msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
 msgstr "פורסם בתאריך <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> בגודל <a href=\"%3$s\" title=\"קישור לתמונה בגודל מלא image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"בחזרה ל-%7$s\" rel=\"gallery\">%8$s</a>"
 
-#: image.php:34 image.php:107 inc/template-tags.php:71
+#: image.php:34
+#: image.php:107
+#: inc/template-tags.php:71
 msgid "Edit"
 msgstr "עריכה"
 
@@ -164,7 +169,8 @@ msgstr "ערכת עיצוב: %1$s של %2$s."
 msgid "Proudly powered by %s"
 msgstr "פועל על %s"
 
-#: content-single.php:33 content.php:33
+#: content-single.php:33
+#: content.php:33
 msgid "<br />Tags:"
 msgstr "<br />תגים:"
 
@@ -172,11 +178,15 @@ msgstr "<br />תגים:"
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "להמשיך לקרוא <span class=\"meta-nav\">&larr;</span>"
 
-#: content-single.php:13 content.php:13
+#: content-single.php:13
+#: content.php:13
 msgid "Posts by %1$s ( @%2$s )"
 msgstr "עדכונים מאת %1$s ( @%2$s )"
 
-#: content-page.php:12 content-single.php:45 content.php:50 image.php:93
+#: content-page.php:12
+#: content-single.php:45
+#: content.php:50
+#: image.php:93
 msgid "Pages:"
 msgstr ":עמודים"
 
@@ -184,15 +194,18 @@ msgstr ":עמודים"
 msgid "Comments are closed."
 msgstr "התגובות סגורות."
 
-#: comments.php:31 comments.php:51
+#: comments.php:31
+#: comments.php:51
 msgid "&larr; Older Comments"
 msgstr "&rarr; תגובות ישנות יותר"
 
-#: comments.php:32 comments.php:52
+#: comments.php:32
+#: comments.php:52
 msgid "Newer Comments &rarr;"
 msgstr "תגובות חדשות יותר &larr;"
 
-#: comments.php:30 comments.php:50
+#: comments.php:30
+#: comments.php:50
 msgid "Comment navigation"
 msgstr "ניווט תגובות"
 
