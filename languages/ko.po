@@ -7,8 +7,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-04-17T03:25:32+00:00\n"
-"PO-Revision-Date: 2020-06-02 15:08:04+0000\n"
+"POT-Creation-Date: 2021-10-18T02:26:31+00:00\n"
+"PO-Revision-Date: 2021-10-17 06:18:58+0000\n"
 "Language: ko_KR\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
@@ -50,6 +50,11 @@ msgstr "%2$s<em>의</em> %1$s"
 #: index.php:27
 msgid "Recent Updates"
 msgstr "최근 업데이트"
+
+#: index.php:31
+msgctxt "Month name"
+msgid "Updates from %s"
+msgstr "%s에 업데이트"
 
 #: inc/template-tags.php:71
 msgid "Pingback:"
@@ -119,10 +124,6 @@ msgstr "편집"
 #: header.php:46
 msgid "Skip to content"
 msgstr "콘텐츠로 바로가기"
-
-#: header.php:32
-msgid "Menu"
-msgstr "메뉴"
 
 #: functions.php:129
 msgctxt "Open Sans font: on or off"
