@@ -7,11 +7,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-04-17T03:25:32+00:00\n"
-"PO-Revision-Date: 2020-06-01 21:03:38+0000\n"
+"POT-Creation-Date: 2021-11-16T02:44:39+00:00\n"
+"PO-Revision-Date: 2021-11-14 12:05:18+0000\n"
 "Language: es\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
+
+#. Description of the theme
+msgid "Communication is oxygen. P2 \"Breathe\" is the first o2-enabled theme."
+msgstr "La comunicación es oxígeno. P2 «Breathe» es el primer tema preparado para o2."
 
 #: searchform.php:10
 msgctxt "placeholder"
@@ -133,10 +137,6 @@ msgstr "Editar"
 #: header.php:46
 msgid "Skip to content"
 msgstr "Saltar al contenido"
-
-#: header.php:32
-msgid "Menu"
-msgstr "Menú"
 
 #: functions.php:129
 msgctxt "Open Sans font: on or off"
